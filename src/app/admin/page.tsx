@@ -90,14 +90,8 @@ const AdminDashboard = () => {
       const result = await response.json();
 
       if (result.success) {
-        // Get deleted booking IDs from localStorage
-        const deletedBookingIds = JSON.parse(localStorage.getItem('deletedBookings') || '[]');
-        
-        // Filter out deleted bookings
-        const filteredBookings = result.data.filter((booking: Booking) => !deletedBookingIds.includes(booking.id));
-        
-        setBookings(filteredBookings);
-        calculateStats(filteredBookings);
+        setBookings(result.data);
+        calculateStats(result.data);
       } else {
         console.error('API responded with error:', result.message);
         setBookings([]);
@@ -109,12 +103,7 @@ const AdminDashboard = () => {
       setBookings([]);
       calculateStats([]);
       
-      // Check if it's a specific permission error
-      if (error.message && error.message.includes('403')) {
-        alert('Permission denied: Please share the Google Sheet with the service account email: srv-detailing@srv-detailing-488818.iam.gserviceaccount.com');
-      } else {
-        alert('Error loading bookings. Please make sure the Google Sheet is shared with the service account email: srv-detailing@srv-detailing-488818.iam.gserviceaccount.com');
-      }
+      console.error('Error loading bookings from database.');
     } finally {
       setLoading(false);
     }
@@ -240,18 +229,26 @@ const AdminDashboard = () => {
     return timeString || 'N/A';
   };
 
-  const updateBookingStatus = (id: string, newStatus: string) => {
-    // Update the status locally without saving to Google Sheet
+  const updateBookingStatus = async (id: string, newStatus: string) => {
+    // Optimistic local update for instant UI feedback
     setBookings((prevBookings: Booking[]) => {
       const updatedBookings = prevBookings.map((booking: Booking) =>
         booking.id === id ? { ...booking, status: newStatus } : booking
       );
-      
-      // Recalculate stats after status update
       calculateStats(updatedBookings);
-      
       return updatedBookings;
     });
+
+    // Persist to Supabase
+    try {
+      await fetch(`/api/bookings/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status: newStatus }),
+      });
+    } catch {
+      // Local state still updated even if API call fails
+    }
   };
   
   const cycleBookingStatus = (id: string, currentStatus: string) => {
@@ -327,43 +324,29 @@ const AdminDashboard = () => {
       'Delete Booking',
       'Are you sure you want to delete this booking? This action cannot be undone.',
       'warning'
-    ).then((confirmed) => {
+    ).then(async (confirmed) => {
       if (confirmed) {
-        // Save deleted booking ID to localStorage
-        const deletedBookingIds = JSON.parse(localStorage.getItem('deletedBookings') || '[]');
-        if (!deletedBookingIds.includes(id)) {
-          deletedBookingIds.push(id);
-          localStorage.setItem('deletedBookings', JSON.stringify(deletedBookingIds));
-        }
-        
-        // Remove the booking from the local state
+        // Remove from local state immediately for responsive UI
         setBookings((prevBookings: Booking[]) => {
           const updatedBookings = prevBookings.filter((booking: Booking) => booking.id !== id);
-          
-          // Recalculate stats after deletion
           calculateStats(updatedBookings);
-          
           return updatedBookings;
         });
-        
-        // Show elegant centered success message
+
+        // Persist deletion to Supabase
+        try {
+          await fetch(`/api/bookings/${id}`, { method: 'DELETE' });
+        } catch {
+          // Booking removed from local view even if API call fails
+        }
+
         showElegantAlert('Booking deleted successfully!', 'success');
       }
     });
   };
 
   const clearDeletedBookings = () => {
-    showElegantConfirm(
-      'Restore Deleted Bookings',
-      'Are you sure you want to restore all deleted bookings? They will reappear on the next page load.',
-      'info'
-    ).then((confirmed) => {
-      if (confirmed) {
-        localStorage.removeItem('deletedBookings');
-        loadDashboardData();
-        showElegantAlert('All deleted bookings have been restored!', 'success');
-      }
-    });
+    loadDashboardData();
   };
 
   const showElegantAlert = (message: string, type: 'success' | 'error' | 'info' = 'info') => {
