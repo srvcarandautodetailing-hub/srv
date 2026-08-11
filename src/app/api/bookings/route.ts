@@ -1,10 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase';
+import { getSupabaseAdmin } from '@/lib/supabase';
 
-// GET → fetch all bookings for admin dashboard
 export async function GET() {
   try {
-    const { data, error } = await supabaseAdmin
+    const { data, error } = await getSupabaseAdmin()
       .from('bookings')
       .select('*')
       .order('created_at', { ascending: false });
@@ -35,7 +34,6 @@ export async function GET() {
   }
 }
 
-// POST → create new booking
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -48,7 +46,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { error } = await supabaseAdmin.from('bookings').insert({
+    const { error } = await getSupabaseAdmin().from('bookings').insert({
       name,
       phone: body.phone,
       email: body.email,
@@ -62,7 +60,6 @@ export async function POST(request: NextRequest) {
 
     if (error) throw error;
 
-    // Non-blocking email notification via Resend (optional)
     if (process.env.RESEND_API_KEY) {
       fetch('https://api.resend.com/emails', {
         method: 'POST',

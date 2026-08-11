@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase';
+import { getSupabaseAdmin } from '@/lib/supabase';
 
-// PUT → update booking status
 export async function PUT(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -17,7 +16,7 @@ export async function PUT(
       );
     }
 
-    const { error } = await supabaseAdmin
+    const { error } = await getSupabaseAdmin()
       .from('bookings')
       .update({ status })
       .eq('id', id);
@@ -34,7 +33,6 @@ export async function PUT(
   }
 }
 
-// DELETE → permanently delete a booking
 export async function DELETE(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -42,7 +40,7 @@ export async function DELETE(
   try {
     const { id } = await params;
 
-    const { error } = await supabaseAdmin
+    const { error } = await getSupabaseAdmin()
       .from('bookings')
       .delete()
       .eq('id', id);

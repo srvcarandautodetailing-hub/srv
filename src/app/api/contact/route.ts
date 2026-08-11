@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabaseAdmin } from '@/lib/supabase';
+import { getSupabaseAdmin } from '@/lib/supabase';
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { error } = await supabaseAdmin.from('contact_messages').insert({
+    const { error } = await getSupabaseAdmin().from('contact_messages').insert({
       name: name.trim(),
       email: email.trim(),
       message: message.trim(),
