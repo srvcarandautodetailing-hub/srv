@@ -89,6 +89,33 @@ export async function POST(request: NextRequest) {
       requestBody: { values: [newRow] },
     });
 
+    // Send email notification if Resend API key is configured
+    if (process.env.RESEND_API_KEY) {
+      await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          from: 'Bookings <bookings@srvdetailing.co.uk>',
+          to: ['srv_detailing@icloud.com'],
+          subject: `New Booking: ${body.service} — ${body.name || body.fullName}`,
+          html: `
+            <h2>New Booking Request</h2>
+            <p><strong>Name:</strong> ${body.name || body.fullName}</p>
+            <p><strong>Phone:</strong> ${body.phone}</p>
+            <p><strong>Email:</strong> ${body.email}</p>
+            <p><strong>Service:</strong> ${body.service}</p>
+            <p><strong>Date:</strong> ${body.date}</p>
+            <p><strong>Time:</strong> ${body.time}</p>
+            <p><strong>Notes:</strong> ${body.notes || 'None'}</p>
+            <p><em>View all bookings: <a href="https://www.srvdetailing.co.uk/admin/send-email">Admin Panel</a></em></p>
+          `,
+        }),
+      }).catch(() => {}); // Non-blocking — booking still succeeds if email fails
+    }
+
     return NextResponse.json({ success: true, message: 'Booking created successfully' });
   } catch (error: any) {
     console.error('Failed to create booking:', error);
