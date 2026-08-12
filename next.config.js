@@ -7,14 +7,6 @@ const nextConfig = {
   // but Next.js-level redirects ensure it works in all hosting contexts.
   async redirects() {
     return [
-      // ─── Canonical domain enforcement ─────────────────────────────────────
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'srvdetailing.co.uk' }],
-        destination: 'https://www.srvdetailing.co.uk/:path*',
-        permanent: true, // 308 → 301 for GET
-      },
-
       // ─── Service URL migrations (flat → nested city structure) ─────────────
       // Handled at config level so redirects fire before any page component runs.
       { source: '/services/ceramic-coating',    destination: '/manchester/car-detailing/ceramic-coating',    permanent: true },
