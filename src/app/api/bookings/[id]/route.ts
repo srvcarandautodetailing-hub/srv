@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabaseAdmin } from '@/lib/supabase';
 
+export const runtime = 'edge';
+
 export async function PUT(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
