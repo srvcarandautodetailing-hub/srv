@@ -124,6 +124,10 @@ firebase-debug.log*
 # Vercel
 .vercel/
 
+# Cloudflare / OpenNext build output
+.open-next/
+.wrangler/
+
 # Netlify
 .netlify/
 
