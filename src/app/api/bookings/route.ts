@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSupabaseAdmin } from '@/lib/supabase';
 
-export const runtime = 'edge';
-
 export async function GET() {
   try {
     const { data, error } = await getSupabaseAdmin()
