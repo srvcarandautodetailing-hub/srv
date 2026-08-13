@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileBottomBar } from "@/components/layout/MobileBottomBar";
+import { WhatsAppFAB } from "@/components/layout/WhatsAppFAB";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -254,6 +255,9 @@ export default function RootLayout({
 
           {/* Mobile sticky bottom bar — highest CRO element */}
           <MobileBottomBar />
+
+          {/* WhatsApp floating button — sitewide conversion driver */}
+          <WhatsAppFAB />
 
           <Sonner />
         </TooltipProvider>
