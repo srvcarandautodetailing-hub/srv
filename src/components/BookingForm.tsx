@@ -188,7 +188,13 @@ const BookingForm = () => {
         }),
       });
 
-      const result = await response.json();
+      let result: { success: boolean; message?: string };
+      try {
+        result = await response.json();
+      } catch {
+        setSubmitError(`Server error (HTTP ${response.status}). Please call us on 07375 759686.`);
+        return;
+      }
 
       if (result.success) {
         setSubmitSuccess(true);
@@ -199,8 +205,9 @@ const BookingForm = () => {
       } else {
         setSubmitError(result.message || 'An error occurred while processing your booking.');
       }
-    } catch {
-      setSubmitError('Failed to submit booking. Please try again or call us on 07375 759686.');
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : String(err);
+      setSubmitError(`Failed to submit booking (${msg}). Please call us on 07375 759686.`);
     } finally {
       setIsSubmitting(false);
     }
