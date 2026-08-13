@@ -8,6 +8,7 @@ mode = "smart"
 
 [vars]
 SUPABASE_URL = "https://kjbcgucumyszdflywdha.supabase.co"
+SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtqYmNndWN1bXlzemRmbHl3ZGhhIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NjQzNzgwMSwiZXhwIjoyMTAyMDEzODAxfQ.et-ueIVMlWohDv-vAspbRCum7fsL6vBLaJvQfHBjCqM"
 
 [assets]
 directory = ".open-next/assets"
