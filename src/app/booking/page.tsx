@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Calendar, Clock, Car, MapPin, Phone, Shield, Star } from "lucide-react";
-import { Navbar } from "@/components/Navbar";
 import BookingHeroCarousel from "@/components/BookingHeroCarousel";
 import BookingForm from "@/components/BookingForm";
 import type { Metadata } from "next";
@@ -17,7 +16,6 @@ export const metadata: Metadata = {
 export default function BookingPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar />
 
       {/* ── Hero ── Client carousel extracted to its own small component */}
       <BookingHeroCarousel />

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { Header } from '@/components/layout/Header';
 
 export const metadata: Metadata = {
   title: 'Booking Confirmed | SRV Detailing',
@@ -12,7 +11,6 @@ export const metadata: Metadata = {
 export default function BookingSuccessPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
 
       <main className="flex items-center justify-center px-4 py-20 sm:py-32">
         <div className="max-w-lg w-full text-center">
