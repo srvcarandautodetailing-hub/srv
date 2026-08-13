@@ -3,8 +3,6 @@ main = ".open-next/worker.js"
 compatibility_date = "2026-08-11"
 compatibility_flags = [ "nodejs_compat" ]
 
-[placement]
-mode = "smart"
 
 [vars]
 SUPABASE_URL = "https://kjbcgucumyszdflywdha.supabase.co"
