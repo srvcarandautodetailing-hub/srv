@@ -4,7 +4,7 @@ export async function GET() {
   const checks: Record<string, string> = {};
 
   // 1. Check env vars present
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseUrl = process.env.SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   checks.supabase_url = supabaseUrl ? `set (${supabaseUrl})` : 'MISSING';
