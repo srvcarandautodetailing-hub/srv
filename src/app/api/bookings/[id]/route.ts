@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getSupabaseAdmin } from '@/lib/supabase';
+import { supabaseUrl, supabaseHeaders } from '@/lib/supabase';
 
 export async function PUT(
   request: NextRequest,
@@ -16,18 +16,20 @@ export async function PUT(
       );
     }
 
-    const { error } = await getSupabaseAdmin()
-      .from('bookings')
-      .update({ status })
-      .eq('id', id);
+    const res = await fetch(supabaseUrl(`bookings?id=eq.${id}`), {
+      method: 'PATCH',
+      headers: { ...supabaseHeaders(), Prefer: 'return=minimal' },
+      body: JSON.stringify({ status }),
+    });
 
-    if (error) throw error;
+    if (!res.ok) throw new Error(await res.text());
 
     return NextResponse.json({ success: true, message: 'Booking status updated successfully' });
-  } catch (error: any) {
-    console.error('Failed to update booking status:', error);
+  } catch (error: unknown) {
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Failed to update booking status:', msg);
     return NextResponse.json(
-      { success: false, message: 'Failed to update booking status: ' + error.message },
+      { success: false, message: 'Failed to update booking status: ' + msg },
       { status: 500 }
     );
   }
@@ -40,18 +42,19 @@ export async function DELETE(
   try {
     const { id } = await params;
 
-    const { error } = await getSupabaseAdmin()
-      .from('bookings')
-      .delete()
-      .eq('id', id);
+    const res = await fetch(supabaseUrl(`bookings?id=eq.${id}`), {
+      method: 'DELETE',
+      headers: { ...supabaseHeaders(), Prefer: 'return=minimal' },
+    });
 
-    if (error) throw error;
+    if (!res.ok) throw new Error(await res.text());
 
     return NextResponse.json({ success: true, message: 'Booking deleted successfully' });
-  } catch (error: any) {
-    console.error('Failed to delete booking:', error);
+  } catch (error: unknown) {
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Failed to delete booking:', msg);
     return NextResponse.json(
-      { success: false, message: 'Failed to delete booking: ' + error.message },
+      { success: false, message: 'Failed to delete booking: ' + msg },
       { status: 500 }
     );
   }

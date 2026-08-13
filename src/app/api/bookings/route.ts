@@ -1,16 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getSupabaseAdmin } from '@/lib/supabase';
+import { supabaseUrl, supabaseHeaders } from '@/lib/supabase';
 
 export async function GET() {
   try {
-    const { data, error } = await getSupabaseAdmin()
-      .from('bookings')
-      .select('*')
-      .order('created_at', { ascending: false });
+    const res = await fetch(
+      supabaseUrl('bookings?select=*&order=created_at.desc'),
+      { headers: supabaseHeaders() }
+    );
 
-    if (error) throw error;
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
 
-    const bookings = (data || []).map((row) => ({
+    const bookings = (data || []).map((row: Record<string, unknown>) => ({
       id: row.id,
       createdAt: row.created_at,
       name: row.name,
@@ -25,10 +26,11 @@ export async function GET() {
     }));
 
     return NextResponse.json({ success: true, data: bookings });
-  } catch (error: any) {
-    console.error('Failed to fetch bookings:', error);
+  } catch (error: unknown) {
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Failed to fetch bookings:', msg);
     return NextResponse.json(
-      { success: false, data: [], message: 'Failed to load bookings: ' + error.message },
+      { success: false, data: [], message: 'Failed to load bookings: ' + msg },
       { status: 500 }
     );
   }
@@ -46,25 +48,29 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { error } = await getSupabaseAdmin().from('bookings').insert({
-      name,
-      phone: body.phone,
-      email: body.email,
-      address: body.address || '',
-      service: body.service,
-      date: body.date,
-      time: body.time,
-      notes: body.notes || '',
-      status: 'Pending',
+    const res = await fetch(supabaseUrl('bookings'), {
+      method: 'POST',
+      headers: { ...supabaseHeaders(), Prefer: 'return=minimal' },
+      body: JSON.stringify({
+        name,
+        phone: body.phone,
+        email: body.email,
+        address: body.address || '',
+        service: body.service,
+        date: body.date,
+        time: body.time,
+        notes: body.notes || '',
+        status: 'Pending',
+      }),
     });
 
-    if (error) throw error;
+    if (!res.ok) throw new Error(await res.text());
 
     if (process.env.RESEND_API_KEY) {
       fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+          Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
@@ -87,10 +93,11 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json({ success: true, message: 'Booking created successfully' });
-  } catch (error: any) {
-    console.error('Failed to create booking:', error);
+  } catch (error: unknown) {
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Failed to create booking:', msg);
     return NextResponse.json(
-      { success: false, message: 'Failed to create booking: ' + error.message },
+      { success: false, message: 'Failed to create booking: ' + msg },
       { status: 500 }
     );
   }

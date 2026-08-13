@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getSupabaseAdmin } from '@/lib/supabase';
+import { supabaseUrl, supabaseHeaders } from '@/lib/supabase';
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,17 +19,22 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { error } = await getSupabaseAdmin().from('contact_messages').insert({
-      name: name.trim(),
-      email: email.trim(),
-      message: message.trim(),
+    const res = await fetch(supabaseUrl('contact_messages'), {
+      method: 'POST',
+      headers: { ...supabaseHeaders(), Prefer: 'return=minimal' },
+      body: JSON.stringify({
+        name: name.trim(),
+        email: email.trim(),
+        message: message.trim(),
+      }),
     });
 
-    if (error) throw error;
+    if (!res.ok) throw new Error(await res.text());
 
     return NextResponse.json({ success: true, message: 'Message received — we will be in touch shortly.' });
-  } catch (error: any) {
-    console.error('Contact form error:', error);
+  } catch (error: unknown) {
+    const msg = error instanceof Error ? error.message : String(error);
+    console.error('Contact form error:', msg);
     return NextResponse.json(
       { success: false, message: 'Failed to send your message. Please call us on 07375 759686.' },
       { status: 500 }

@@ -1,18 +1,16 @@
-import { createClient } from '@supabase/supabase-js';
+function headers() {
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+  return {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    'Content-Type': 'application/json',
+  };
+}
 
-// Returns a fresh Supabase admin client on each call.
-// Called inside API route handlers (never at module level) so the build
-// can import the module without needing env vars present at build time.
-export function getSupabaseAdmin() {
-  return createClient(
-    process.env.SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
-    {
-      auth: {
-        persistSession: false,
-        autoRefreshToken: false,
-        detectSessionInUrl: false,
-      },
-    }
-  );
+export function supabaseUrl(path: string) {
+  return `${process.env.SUPABASE_URL}/rest/v1/${path}`;
+}
+
+export function supabaseHeaders() {
+  return headers();
 }
