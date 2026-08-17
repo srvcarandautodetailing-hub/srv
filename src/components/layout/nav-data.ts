@@ -269,6 +269,6 @@ export const POPULAR_SEARCHES: NavLink[] = [
 export const BOTTOM_BAR_ITEMS: BottomBarItem[] = [
   { iconName: 'phone',    label: 'Call',     href: PHONE_TEL,  isPhone: true },
   { iconName: 'home',     label: 'Home',     href: '/' },
-  { iconName: 'list',     label: 'Services', href: '/services' },
+  { iconName: 'list',     label: 'Pricing',  href: '/pricing' },
   { iconName: 'calendar', label: 'Book Now', href: '/booking', isAccent: true },
 ];
