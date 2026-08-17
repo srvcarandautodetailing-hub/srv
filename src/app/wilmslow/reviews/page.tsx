@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, Star, Quote } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 
 export const dynamic = 'force-static';
@@ -138,7 +136,6 @@ export default function WilmslowReviewsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }} />
-      <Navbar />
 
       <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-white px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -231,8 +228,6 @@ export default function WilmslowReviewsPage() {
 
         <CtaSection serviceName="Car Care in Wilmslow" />
       </main>
-
-      <Footer />
     </div>
   );
 }

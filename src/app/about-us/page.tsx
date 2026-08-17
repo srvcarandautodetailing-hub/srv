@@ -1,7 +1,6 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
-
 export const metadata: Metadata = {
   title: "About SRV Detailing | 22 Years Professional Car Valeting Manchester",
   description: "Professional mobile car detailing in Manchester & Stockport. 22 years experience, ceramic coating accredited. Fully insured, eco-safe methods.",
@@ -86,7 +85,7 @@ const aboutPageJsonLd = {
           "name": "Tameside"
         }
       ],
-      "priceRange": "££-£££",
+      "priceRange": "Â£Â£-Â£Â£Â£",
       "currenciesAccepted": "GBP",
       "paymentAccepted": "Cash, Card, Bank Transfer",
       "openingHoursSpecification": {
@@ -135,9 +134,7 @@ const aboutPageJsonLd = {
 export default function About() {
   return (
     <div className="font-sans text-gray-900">
-      <Navbar />
-      
-      {/* Hero Section — rotating gallery images via AboutHero client component */}
+      {/* Hero Section â€” rotating gallery images via AboutHero client component */}
       <AboutHero />
 
       {/* Company Story */}
@@ -153,7 +150,7 @@ export default function About() {
                   SRV Detailing was founded in 2003 by a car enthusiast who believed every vehicle deserves professional care. What started as a single-person operation in Dukinfield has grown into Greater Manchester's trusted name for mobile car valeting and specialist ceramic coating services.
                 </p>
                 <p>
-                  Over 22 years, we've detailed thousands of vehicles—from daily drivers to prestige motors—learning that true quality comes from understanding both the science of automotive finishes and the pride owners feel in their cars.
+                  Over 22 years, we've detailed thousands of vehiclesâ€”from daily drivers to prestige motorsâ€”learning that true quality comes from understanding both the science of automotive finishes and the pride owners feel in their cars.
                 </p>
                 <p>
                   We don't just clean cars. We restore them, protect them, and treat every vehicle as if it were our own. That's the SRV difference, and it's why customers across Manchester and Stockport trust us with their most valuable possessions.
@@ -234,7 +231,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Ceramic Coating Accreditation</h3>
                   <p className="text-gray-600">
-                    We're not just certified—we're specialists. Our team has completed advanced training in SiO2 ceramic coating application, surface preparation, and curing protocols. We use only manufacturer-approved products with proven durability.
+                    We're not just certifiedâ€”we're specialists. Our team has completed advanced training in SiO2 ceramic coating application, surface preparation, and curing protocols. We use only manufacturer-approved products with proven durability.
                   </p>
                 </div>
               </div>
@@ -254,7 +251,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Safe, pH-Neutral Products</h3>
                   <p className="text-gray-600">
-                    Every product we use is tested and safe for your vehicle's paint, glass, rubber, and trim. No harsh acids, no damaging alkalines—just professional-grade formulas designed for automotive surfaces.
+                    Every product we use is tested and safe for your vehicle's paint, glass, rubber, and trim. No harsh acids, no damaging alkalinesâ€”just professional-grade formulas designed for automotive surfaces.
                   </p>
                 </div>
               </div>
@@ -264,7 +261,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Multi-Stage Quality Process</h3>
                   <p className="text-gray-600">
-                    We don't rush. Pre-wash, decontamination, clay bar treatment, machine polishing with paint depth measurement, protection application—every step is methodical, measured, and documented.
+                    We don't rush. Pre-wash, decontamination, clay bar treatment, machine polishing with paint depth measurement, protection applicationâ€”every step is methodical, measured, and documented.
                   </p>
                 </div>
               </div>
@@ -304,7 +301,7 @@ export default function About() {
             Meet the <span className="text-primary">SRV Team</span>
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Every member of our team shares the same passion for automotive excellence. We're not just technicians—we're car enthusiasts who understand what your vehicle means to you.
+            Every member of our team shares the same passion for automotive excellence. We're not just techniciansâ€”we're car enthusiasts who understand what your vehicle means to you.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -367,7 +364,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  We believe car detailing isn't just about making vehicles look good—it's about preservation, protection, and pride of ownership.
+                  We believe car detailing isn't just about making vehicles look goodâ€”it's about preservation, protection, and pride of ownership.
                 </p>
                 <p>
                   That's why we take the time to understand your needs before we start. Whether you're preparing a classic car for a show, protecting a new vehicle's paint with ceramic coating, or simply want your daily driver to feel fresh again, we tailor our approach to your goals.
@@ -408,7 +405,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Mobile Service Coverage</h3>
                   <p className="text-gray-600">
-                    We bring our fully equipped mobile unit to your home, office, or preferred location across Manchester, Stockport, Tameside, and surrounding areas—within a 25-mile radius of our Dukinfield base.
+                    We bring our fully equipped mobile unit to your home, office, or preferred location across Manchester, Stockport, Tameside, and surrounding areasâ€”within a 25-mile radius of our Dukinfield base.
                   </p>
                 </div>
               </div>
@@ -466,7 +463,7 @@ export default function About() {
             Certifications & <span className="text-primary">Professional Standards</span>
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            We don't just meet industry standards—we exceed them. Here's what backs our commitment to quality and safety.
+            We don't just meet industry standardsâ€”we exceed them. Here's what backs our commitment to quality and safety.
           </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -493,7 +490,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Public Liability Insurance</h3>
                   <p className="text-gray-600">
-                    Fully insured for up to £5 million. Every job, every vehicle, every location is covered. Your peace of mind is non-negotiable.
+                    Fully insured for up to Â£5 million. Every job, every vehicle, every location is covered. Your peace of mind is non-negotiable.
                   </p>
                 </div>
               </div>
@@ -667,7 +664,7 @@ export default function About() {
                   </li>
                   <li className="flex gap-3">
                     <Leaf className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span><strong>Waste Water Management:</strong> Captured and disposed of legally—never allowed to enter storm drains or waterways.</span>
+                    <span><strong>Waste Water Management:</strong> Captured and disposed of legallyâ€”never allowed to enter storm drains or waterways.</span>
                   </li>
                   <li className="flex gap-3">
                     <Leaf className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
@@ -694,7 +691,7 @@ export default function About() {
             Fully Equipped <span className="text-primary">Mobile Service</span>
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Our mobile detailing van brings the workshop to you—complete with power, water, and every tool needed for professional results.
+            Our mobile detailing van brings the workshop to youâ€”complete with power, water, and every tool needed for professional results.
           </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -779,8 +776,6 @@ export default function About() {
         </div>
       </section>
 
-      <Footer />
-      
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageJsonLd) }}

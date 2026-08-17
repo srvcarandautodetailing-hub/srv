@@ -1,19 +1,19 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 import { Camera, Sparkles, ArrowRight } from 'lucide-react';
 import { GalleryHero } from '@/components/pages/GalleryHero';
 
-// ─── SEO Metadata ─────────────────────────────────────────────────────────────
+// â”€â”€â”€ SEO Metadata â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // Title: primary keyword first, GEO signals (Stockport leads), brand last
 // Description: under 160 chars, mobile + Stockport + service types + CTA implied
 export const metadata: Metadata = {
-  title: 'Mobile Car Detailing Gallery — Stockport & Manchester | SRV Detailing',
+  title: 'Mobile Car Detailing Gallery â€” Stockport & Manchester | SRV Detailing',
   description:
-    'See real results from SRV Detailing — mobile ceramic coating, paint correction, and car valeting across Stockport, Manchester & Greater Manchester. 22 years of professional mobile car care.',
+    'See real results from SRV Detailing â€” mobile ceramic coating, paint correction, and car valeting across Stockport, Manchester & Greater Manchester. 22 years of professional mobile car care.',
   keywords: [
     'mobile car detailing gallery Stockport',
     'ceramic coating Stockport photos',
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: 'https://www.srvdetailing.co.uk/gallery' },
   openGraph: {
-    title: 'Mobile Car Detailing Gallery — Stockport & Manchester | SRV Detailing',
+    title: 'Mobile Car Detailing Gallery â€” Stockport & Manchester | SRV Detailing',
     description:
-      'Real mobile detailing results from SRV Detailing — ceramic coatings, paint correction, and valeting across Stockport & Manchester.',
+      'Real mobile detailing results from SRV Detailing â€” ceramic coatings, paint correction, and valeting across Stockport & Manchester.',
     url: 'https://www.srvdetailing.co.uk/gallery',
     type: 'website',
     locale: 'en_GB',
@@ -38,15 +38,15 @@ export const metadata: Metadata = {
         url: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
         width: 1200,
         height: 630,
-        alt: 'SRV Detailing mobile ceramic coating result in Stockport — professional paint protection service',
+        alt: 'SRV Detailing mobile ceramic coating result in Stockport â€” professional paint protection service',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mobile Car Detailing Gallery — Stockport & Manchester | SRV Detailing',
+    title: 'Mobile Car Detailing Gallery â€” Stockport & Manchester | SRV Detailing',
     description:
-      'Real mobile detailing results from SRV Detailing — ceramic coatings, paint correction, and valeting across Stockport & Manchester.',
+      'Real mobile detailing results from SRV Detailing â€” ceramic coatings, paint correction, and valeting across Stockport & Manchester.',
     images: ['/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp'],
   },
   robots: {
@@ -56,148 +56,148 @@ export const metadata: Metadata = {
   },
 };
 
-// ─── Gallery Image Data ────────────────────────────────────────────────────────
+// â”€â”€â”€ Gallery Image Data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // Each entry: unique alt text (brand + service + location + mobile context),
-// caption (short, visible on hover — Stockport-led where applicable).
-// Add new images by appending to this array — no other changes needed.
+// caption (short, visible on hover â€” Stockport-led where applicable).
+// Add new images by appending to this array â€” no other changes needed.
 const galleryImages = [
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
-    alt: 'SRV Detailing mobile ceramic coating in Stockport — mirror-like gloss and long-lasting paint protection applied at your home',
-    caption: 'Ceramic Coating Specialist · Stockport',
+    alt: 'SRV Detailing mobile ceramic coating in Stockport â€” mirror-like gloss and long-lasting paint protection applied at your home',
+    caption: 'Ceramic Coating Specialist Â· Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-manchester-stockport-01.webp.webp',
-    alt: 'SRV Detailing accredited ceramic coating serving Stockport and Manchester — premium 5-year SiO2 paint protection mobile service',
-    caption: 'Ceramic Coating · Stockport & Manchester',
+    alt: 'SRV Detailing accredited ceramic coating serving Stockport and Manchester â€” premium 5-year SiO2 paint protection mobile service',
+    caption: 'Ceramic Coating Â· Stockport & Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-01.webp.webp',
-    alt: 'SRV Detailing mobile car detailing in Stockport — showroom-quality finish delivered directly to your driveway',
-    caption: 'Mobile Car Detailing · Stockport',
+    alt: 'SRV Detailing mobile car detailing in Stockport â€” showroom-quality finish delivered directly to your driveway',
+    caption: 'Mobile Car Detailing Â· Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-valeting-manchester-stockport-01.webp.webp',
-    alt: 'SRV Detailing mobile car valeting in Stockport and Manchester — professional valet service at your home or workplace',
-    caption: 'Mobile Car Valeting · Stockport & Manchester',
+    alt: 'SRV Detailing mobile car valeting in Stockport and Manchester â€” professional valet service at your home or workplace',
+    caption: 'Mobile Car Valeting Â· Stockport & Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-01.webp.webp',
-    alt: 'SRV Detailing mobile car detailing van set up at a customer driveway near Stockport — no garage or travel required',
-    caption: 'Mobile Detailing at Home · Stockport',
+    alt: 'SRV Detailing mobile car detailing van set up at a customer driveway near Stockport â€” no garage or travel required',
+    caption: 'Mobile Detailing at Home Â· Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-02.webp.webp',
-    alt: 'SRV Detailing fully self-contained mobile detailing unit on a residential driveway in Manchester — water and power on-board',
-    caption: 'Self-Contained Mobile Unit · Manchester',
+    alt: 'SRV Detailing fully self-contained mobile detailing unit on a residential driveway in Manchester â€” water and power on-board',
+    caption: 'Self-Contained Mobile Unit Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-02.webp.webp',
-    alt: 'SRV Detailing professional car detailing covering Greater Manchester and Stockport — exterior finish restored by our mobile team',
-    caption: 'Car Detailing · Greater Manchester & Stockport',
+    alt: 'SRV Detailing professional car detailing covering Greater Manchester and Stockport â€” exterior finish restored by our mobile team',
+    caption: 'Car Detailing Â· Greater Manchester & Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-manchester-01.webp.webp',
-    alt: 'SRV Detailing mobile ceramic coating application in Manchester — accredited SiO2 hydrophobic protection at your door',
-    caption: 'Mobile Ceramic Coating · Manchester',
+    alt: 'SRV Detailing mobile ceramic coating application in Manchester â€” accredited SiO2 hydrophobic protection at your door',
+    caption: 'Mobile Ceramic Coating Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-car-polishing-manchester-01.webp.webp',
-    alt: 'SRV Detailing mobile machine polishing in Manchester — swirl marks removed and gloss restored at the customer\'s location',
-    caption: 'Paint Correction & Polishing · Manchester',
+    alt: 'SRV Detailing mobile machine polishing in Manchester â€” swirl marks removed and gloss restored at the customer\'s location',
+    caption: 'Paint Correction & Polishing Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-car-valeting-manchester-02.webp.webp',
-    alt: 'SRV Detailing mobile car valeting in Stockport — snow foam pre-wash, two-bucket hand wash, and wax protection on your driveway',
-    caption: 'Mobile Car Valeting · Stockport',
+    alt: 'SRV Detailing mobile car valeting in Stockport â€” snow foam pre-wash, two-bucket hand wash, and wax protection on your driveway',
+    caption: 'Mobile Car Valeting Â· Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-manchester-02.webp.webp',
-    alt: 'SRV Detailing ceramic coating creating a deep gloss and hydrophobic finish — mobile service available across Stockport and Manchester',
-    caption: 'Ceramic Coating Results · Manchester',
+    alt: 'SRV Detailing ceramic coating creating a deep gloss and hydrophobic finish â€” mobile service available across Stockport and Manchester',
+    caption: 'Ceramic Coating Results Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-exterior-car-detailing-manchester-01.webp.webp',
-    alt: 'SRV Detailing exterior car detailing in Manchester — clay bar decontamination and ceramic sealant applied by our mobile team',
-    caption: 'Exterior Car Detailing · Manchester',
+    alt: 'SRV Detailing exterior car detailing in Manchester â€” clay bar decontamination and ceramic sealant applied by our mobile team',
+    caption: 'Exterior Car Detailing Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-01.webp.webp',
-    alt: 'SRV Detailing mobile interior car cleaning in Stockport — deep vacuum, leather conditioning, and full trim dressing at your home',
-    caption: 'Interior Car Cleaning · Stockport',
+    alt: 'SRV Detailing mobile interior car cleaning in Stockport â€” deep vacuum, leather conditioning, and full trim dressing at your home',
+    caption: 'Interior Car Cleaning Â· Stockport',
   },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-manchester-03.webp.webp',
-    alt: 'SRV Detailing professional SiO2 ceramic coating protecting vehicle paintwork — mobile service across Stockport and Greater Manchester',
-    caption: 'Ceramic Coating · Stockport & Greater Manchester',
+    alt: 'SRV Detailing professional SiO2 ceramic coating protecting vehicle paintwork â€” mobile service across Stockport and Greater Manchester',
+    caption: 'Ceramic Coating Â· Stockport & Greater Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-03.webp.webp',
-    alt: 'SRV Detailing mobile detailing van equipped with pressure washer, dual-action polisher, and ceramic products — serving Stockport and Manchester',
-    caption: 'Mobile Detailing Van · Stockport Based',
+    alt: 'SRV Detailing mobile detailing van equipped with pressure washer, dual-action polisher, and ceramic products â€” serving Stockport and Manchester',
+    caption: 'Mobile Detailing Van Â· Stockport Based',
   },
   {
     src: '/images/gallery/srv-detailing-interior-car-cleaning-manchester-03.webp.webp',
-    alt: 'SRV Detailing interior detailing with hot water extraction — upholstery and carpet deep clean performed on-site in Manchester',
-    caption: 'Interior Deep Clean · Manchester',
+    alt: 'SRV Detailing interior detailing with hot water extraction â€” upholstery and carpet deep clean performed on-site in Manchester',
+    caption: 'Interior Deep Clean Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-manchester-05.webp.webp',
-    alt: 'SRV Detailing ceramic coating showing exceptional water-beading effect — mobile application by our accredited team in Manchester',
-    caption: 'Ceramic Coating Water-Beading · Manchester',
+    alt: 'SRV Detailing ceramic coating showing exceptional water-beading effect â€” mobile application by our accredited team in Manchester',
+    caption: 'Ceramic Coating Water-Beading Â· Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-04.webp.webp',
-    alt: 'SRV Detailing delivering professional mobile car detailing results across Greater Manchester — showroom finish at your location',
-    caption: 'Professional Mobile Detailing · Greater Manchester',
+    alt: 'SRV Detailing delivering professional mobile car detailing results across Greater Manchester â€” showroom finish at your location',
+    caption: 'Professional Mobile Detailing Â· Greater Manchester',
   },
   {
     src: '/images/gallery/srv-detailing-mobile-car-detailing-manchester-05.webp.webp',
-    alt: 'SRV Detailing mobile team completing multi-stage exterior wash and paint protection in Manchester — fully equipped, no mains required',
-    caption: 'Multi-Stage Mobile Detail · Manchester',
+    alt: 'SRV Detailing mobile team completing multi-stage exterior wash and paint protection in Manchester â€” fully equipped, no mains required',
+    caption: 'Multi-Stage Mobile Detail Â· Manchester',
   },
   {
     src: '/images/gallery/mobile-van.webp.webp',
-    alt: 'SRV Detailing mobile valeting and detailing van — fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
-    caption: 'SRV Detailing Mobile Unit · Stockport Based',
+    alt: 'SRV Detailing mobile valeting and detailing van â€” fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
+    caption: 'SRV Detailing Mobile Unit Â· Stockport Based',
   },
 ];
 
-// ─── Sub-gallery Navigation ────────────────────────────────────────────────────
+// â”€â”€â”€ Sub-gallery Navigation â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const galleries = [
   {
     title: 'Car Detailing Gallery',
     description:
-      'Paint correction, ceramic coating, headlight restoration and interior detailing — see the transformations our mobile detailing service delivers in Stockport & Manchester.',
+      'Paint correction, ceramic coating, headlight restoration and interior detailing â€” see the transformations our mobile detailing service delivers in Stockport & Manchester.',
     href: '/gallery/detailing',
     icon: Sparkles,
   },
   {
     title: 'Car Valeting Gallery',
     description:
-      'Full valets, interior deep cleans, and mobile valeting results — before and after photos from Stockport, Manchester & Greater Manchester.',
+      'Full valets, interior deep cleans, and mobile valeting results â€” before and after photos from Stockport, Manchester & Greater Manchester.',
     href: '/gallery/valeting',
     icon: Camera,
   },
 ];
 
-// ─── JSON-LD Structured Data ───────────────────────────────────────────────────
+// â”€â”€â”€ JSON-LD Structured Data â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // Three nodes: LocalBusiness (Stockport-anchored), ImageGallery, WebPage
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
-    // 1. LocalBusiness — Stockport address, mobile service area, 5 representative images
+    // 1. LocalBusiness â€” Stockport address, mobile service area, 5 representative images
     {
       '@type': ['LocalBusiness', 'AutoDetailing'],
       '@id': 'https://www.srvdetailing.co.uk/#business',
       name: 'SRV Detailing',
       description:
-        'Professional mobile car detailing and valeting service based in Stockport, Greater Manchester. Specialising in ceramic coating, paint correction, exterior and interior detailing. Fully self-contained mobile unit — we come to your home or workplace across Stockport, Manchester, and Greater Manchester.',
+        'Professional mobile car detailing and valeting service based in Stockport, Greater Manchester. Specialising in ceramic coating, paint correction, exterior and interior detailing. Fully self-contained mobile unit â€” we come to your home or workplace across Stockport, Manchester, and Greater Manchester.',
       url: 'https://www.srvdetailing.co.uk',
       telephone: '+44 7375 759686',
       email: 'srv_detailing@icloud.com',
       foundingDate: '2003',
-      priceRange: '££',
+      priceRange: 'Â£Â£',
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'Globe House, Globe Lane',
@@ -228,7 +228,7 @@ const jsonLd = {
       ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
-        name: 'Mobile Car Detailing & Valeting Services — Stockport',
+        name: 'Mobile Car Detailing & Valeting Services â€” Stockport',
         itemListElement: [
           {
             '@type': 'Offer',
@@ -243,7 +243,7 @@ const jsonLd = {
             itemOffered: {
               '@type': 'Service',
               name: 'Mobile Paint Correction Stockport',
-              description: 'Machine polishing to remove swirl marks and scratches — delivered by our mobile team in Stockport.',
+              description: 'Machine polishing to remove swirl marks and scratches â€” delivered by our mobile team in Stockport.',
             },
           },
           {
@@ -251,7 +251,7 @@ const jsonLd = {
             itemOffered: {
               '@type': 'Service',
               name: 'Mobile Car Valeting Stockport',
-              description: 'Full and mini mobile valet service in Stockport — snow foam, hand wash, interior clean, and protection.',
+              description: 'Full and mini mobile valet service in Stockport â€” snow foam, hand wash, interior clean, and protection.',
             },
           },
           {
@@ -270,46 +270,46 @@ const jsonLd = {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
           name: 'SRV Detailing Ceramic Coating Stockport',
-          description: 'SRV Detailing mobile ceramic coating in Stockport — mirror-like gloss and long-lasting paint protection applied at your home',
+          description: 'SRV Detailing mobile ceramic coating in Stockport â€” mirror-like gloss and long-lasting paint protection applied at your home',
           encodingFormat: 'image/webp',
         },
         {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-mobile-car-valeting-manchester-stockport-01.webp.webp',
           name: 'SRV Detailing Mobile Car Valeting Stockport',
-          description: 'SRV Detailing mobile car valeting in Stockport and Manchester — professional valet service at your home or workplace',
+          description: 'SRV Detailing mobile car valeting in Stockport and Manchester â€” professional valet service at your home or workplace',
           encodingFormat: 'image/webp',
         },
         {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-01.webp.webp',
           name: 'SRV Detailing Mobile Car Detailing Stockport',
-          description: 'SRV Detailing mobile car detailing in Stockport — showroom-quality finish delivered directly to your driveway',
+          description: 'SRV Detailing mobile car detailing in Stockport â€” showroom-quality finish delivered directly to your driveway',
           encodingFormat: 'image/webp',
         },
         {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-interior-car-cleaning-manchester-01.webp.webp',
           name: 'SRV Detailing Mobile Interior Cleaning Stockport',
-          description: 'SRV Detailing mobile interior car cleaning in Stockport — deep vacuum, leather conditioning, and full trim dressing at your home',
+          description: 'SRV Detailing mobile interior car cleaning in Stockport â€” deep vacuum, leather conditioning, and full trim dressing at your home',
           encodingFormat: 'image/webp',
         },
         {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/mobile-van.webp.webp',
           name: 'SRV Detailing Mobile Valeting Van Stockport',
-          description: 'SRV Detailing mobile valeting and detailing van — fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
+          description: 'SRV Detailing mobile valeting and detailing van â€” fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
           encodingFormat: 'image/webp',
         },
       ],
       sameAs: ['https://share.google/AZFyOF2xIb3XaZetX', 'https://instagram.com/srv.detailing'],
     },
 
-    // 2. ImageGallery — all 20 images with keyword-rich descriptions
+    // 2. ImageGallery â€” all 20 images with keyword-rich descriptions
     {
       '@type': 'ImageGallery',
       '@id': 'https://www.srvdetailing.co.uk/gallery#image-gallery',
-      name: 'SRV Detailing Mobile Car Detailing Gallery — Stockport & Manchester',
+      name: 'SRV Detailing Mobile Car Detailing Gallery â€” Stockport & Manchester',
       description:
         'Gallery of professional mobile car detailing, ceramic coating, paint correction, and valeting results by SRV Detailing across Stockport, Manchester, and Greater Manchester.',
       url: 'https://www.srvdetailing.co.uk/gallery',
@@ -327,14 +327,14 @@ const jsonLd = {
       })),
     },
 
-    // 3. WebPage — breadcrumb + canonical signals
+    // 3. WebPage â€” breadcrumb + canonical signals
     {
       '@type': 'WebPage',
       '@id': 'https://www.srvdetailing.co.uk/gallery#webpage',
       url: 'https://www.srvdetailing.co.uk/gallery',
-      name: 'Mobile Car Detailing Gallery — Stockport & Manchester | SRV Detailing',
+      name: 'Mobile Car Detailing Gallery â€” Stockport & Manchester | SRV Detailing',
       description:
-        'See real results from SRV Detailing — mobile ceramic coating, paint correction, and car valeting across Stockport, Manchester & Greater Manchester.',
+        'See real results from SRV Detailing â€” mobile ceramic coating, paint correction, and car valeting across Stockport, Manchester & Greater Manchester.',
       inLanguage: 'en-GB',
       isPartOf: { '@id': 'https://www.srvdetailing.co.uk/#website' },
       about: { '@id': 'https://www.srvdetailing.co.uk/#business' },
@@ -349,28 +349,26 @@ const jsonLd = {
   ],
 };
 
-// ─── Page Component ────────────────────────────────────────────────────────────
+// â”€â”€â”€ Page Component â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* ── Hero ──────────────────────────────────────────────────────────── */}
+      {/* â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <GalleryHero />
 
       <main>
-        {/* ── SEO Content ───────────────────────────────────────────────── */}
+        {/* â”€â”€ SEO Content â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="max-w-4xl mx-auto px-4 pt-14 pb-8">
           <p className="text-gray-700 text-lg leading-relaxed mb-5">
-            Welcome to the SRV Detailing gallery — a showcase of professional mobile car detailing, ceramic coating, paint correction, and valeting results across Stockport, Manchester, and the wider Greater Manchester area. Based in Dukinfield with a 25-mile mobile service radius, every result you see here was achieved at the customer's own home or workplace using our fully self-contained mobile unit, which carries its own water, power, and professional-grade equipment.
+            Welcome to the SRV Detailing gallery â€” a showcase of professional mobile car detailing, ceramic coating, paint correction, and valeting results across Stockport, Manchester, and the wider Greater Manchester area. Based in Dukinfield with a 25-mile mobile service radius, every result you see here was achieved at the customer's own home or workplace using our fully self-contained mobile unit, which carries its own water, power, and professional-grade equipment.
           </p>
           <p className="text-gray-600 leading-relaxed mb-5">
-            Our Stockport and Manchester customers choose SRV Detailing because we bring the workshop to them. Whether it's a ceramic coating on a prestige vehicle in Stockport, a multi-stage paint correction in Manchester city centre, or a full interior deep clean in Salford — our mobile setup delivers the same showroom-quality results as a fixed-location detailer, without the inconvenience of travel. With over 22 years of experience and accredited ceramic coating certification, our work is trusted by car enthusiasts, fleet managers, and everyday drivers alike.
+            Our Stockport and Manchester customers choose SRV Detailing because we bring the workshop to them. Whether it's a ceramic coating on a prestige vehicle in Stockport, a multi-stage paint correction in Manchester city centre, or a full interior deep clean in Salford â€” our mobile setup delivers the same showroom-quality results as a fixed-location detailer, without the inconvenience of travel. With over 22 years of experience and accredited ceramic coating certification, our work is trusted by car enthusiasts, fleet managers, and everyday drivers alike.
           </p>
           <p className="text-gray-600 leading-relaxed">
             Browse the full photo gallery below to see ceramic coating hydrophobic effects, swirl-free paint correction results, and spotless interior transformations. For side-by-side before-and-after comparisons, visit our dedicated{' '}
@@ -384,8 +382,8 @@ export default function GalleryPage() {
           </p>
         </section>
 
-        {/* ── Photo Grid ────────────────────────────────────────────────── */}
-        <section className="max-w-7xl mx-auto px-4 pb-16" aria-label="SRV Detailing mobile car detailing gallery — Stockport and Manchester">
+        {/* â”€â”€ Photo Grid â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        <section className="max-w-7xl mx-auto px-4 pb-16" aria-label="SRV Detailing mobile car detailing gallery â€” Stockport and Manchester">
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {galleryImages.map((image, index) => (
               <figure
@@ -409,7 +407,7 @@ export default function GalleryPage() {
           </div>
         </section>
 
-        {/* ── Sub-gallery Links ──────────────────────────────────────────── */}
+        {/* â”€â”€ Sub-gallery Links â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="max-w-4xl mx-auto px-4 pb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
             Browse by Service
@@ -434,7 +432,7 @@ export default function GalleryPage() {
           </div>
         </section>
 
-        {/* ── Internal Links ─────────────────────────────────────────────── */}
+        {/* â”€â”€ Internal Links â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="max-w-4xl mx-auto px-4 pb-16">
           <div className="bg-slate-50 border border-border rounded-xl p-8">
             <h2 className="text-xl font-bold mb-1 text-foreground">Our Mobile Services</h2>
@@ -468,8 +466,6 @@ export default function GalleryPage() {
           <CtaSection />
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

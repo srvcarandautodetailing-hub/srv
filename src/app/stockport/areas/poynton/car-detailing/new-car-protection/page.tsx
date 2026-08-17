@@ -1,3 +1,5 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { ServicePageTemplate } from '@/components/pages/ServicePageTemplate';
 import { newCarProtectionPoynton } from '@/data/stockport/areas/poynton/car-detailing/new-car-protection';

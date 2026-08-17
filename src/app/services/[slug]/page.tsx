@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import { Phone, Shield, Sparkles, CheckCircle, Star, Wrench, Car } from 'lucide-react';
 import { notFound, redirect } from 'next/navigation';
 
@@ -241,8 +239,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-      
       {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
@@ -348,8 +344,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }

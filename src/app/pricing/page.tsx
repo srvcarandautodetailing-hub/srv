@@ -1,8 +1,8 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, Sparkles, Car } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 import { PricingHubHero } from '@/components/pages/PricingHubHero';
 
@@ -16,8 +16,6 @@ export const metadata: Metadata = {
 export default function PricingHubPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-
       <PricingHubHero />
 
       <main className="max-w-7xl mx-auto px-4 py-16">
@@ -37,7 +35,7 @@ export default function PricingHubPage() {
             <p className="text-slate-600 mb-4">
               Paint correction, ceramic coating, interior detailing and new car protection packages.
             </p>
-            <p className="text-lg font-bold text-primary mb-4">From £250</p>
+            <p className="text-lg font-bold text-primary mb-4">From Â£250</p>
             <span className="inline-flex items-center gap-1 text-primary font-semibold">
               View detailing prices <ChevronRight className="w-4 h-4" />
             </span>
@@ -58,7 +56,7 @@ export default function PricingHubPage() {
             <p className="text-slate-600 mb-4">
               Mini valets, full valets and premium valeting packages for regular maintenance.
             </p>
-            <p className="text-lg font-bold text-primary mb-4">From £50</p>
+            <p className="text-lg font-bold text-primary mb-4">From Â£50</p>
             <span className="inline-flex items-center gap-1 text-primary font-semibold">
               View valeting prices <ChevronRight className="w-4 h-4" />
             </span>
@@ -67,8 +65,6 @@ export default function PricingHubPage() {
 
         <CtaSection />
       </main>
-
-      <Footer />
     </div>
   );
 }

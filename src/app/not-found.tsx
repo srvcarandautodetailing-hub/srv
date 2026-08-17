@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import Link from "next/link";
 import { Home, Search } from "lucide-react";
 
@@ -14,7 +12,6 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <Navbar />
       <main className="flex-grow flex items-center justify-center px-4">
         <div className="text-center max-w-2xl">
           <div className="mb-8">
@@ -60,7 +57,6 @@ export default function NotFound() {
           </div>
         </div>
       </main>
-      <Footer />
     </div>
   );
 }

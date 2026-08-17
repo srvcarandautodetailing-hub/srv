@@ -1,6 +1,6 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -71,10 +71,10 @@ const jsonLd = {
     {
       "@type": "LocalBusiness",
       "@id": "https://www.srvdetailing.co.uk/manchester#localbusiness",
-      "name": "SRV Detailing — Manchester",
+      "name": "SRV Detailing â€” Manchester",
       "url": "https://www.srvdetailing.co.uk/manchester",
       "telephone": "+447375759686",
-      "priceRange": "££",
+      "priceRange": "Â£Â£",
       "image":
         "https://www.srvdetailing.co.uk/images/car-detailing-manchester.jpg",
       "description":
@@ -212,7 +212,7 @@ const valetingServices = [
     name: "Full Valet",
     href: "/manchester/car-valeting/full-valet",
     description:
-      "Complete interior and exterior valet — our most thorough cleaning package. 3 to 4 hours of meticulous care.",
+      "Complete interior and exterior valet â€” our most thorough cleaning package. 3 to 4 hours of meticulous care.",
     icon: Star,
   },
   {
@@ -226,7 +226,7 @@ const valetingServices = [
     name: "Interior Valeting",
     href: "/manchester/car-valeting/interior-valeting",
     description:
-      "Deep cabin cleaning — vacuuming, upholstery treatment, dashboard detailing and odour removal.",
+      "Deep cabin cleaning â€” vacuuming, upholstery treatment, dashboard detailing and odour removal.",
     icon: CheckCircle,
   },
   {
@@ -254,7 +254,7 @@ const valetingServices = [
     name: "Car Wash",
     href: "/manchester/car-wash",
     description:
-      "Mobile hand car wash using the safe two-bucket method. We come to your door — no queues, no automated brushes.",
+      "Mobile hand car wash using the safe two-bucket method. We come to your door â€” no queues, no automated brushes.",
     icon: Droplets,
   },
 ];
@@ -263,20 +263,20 @@ const manchesterAreas = [
   {
     name: "City Centre",
     slug: "city-centre",
-    postcodes: "M1–M4",
+    postcodes: "M1â€“M4",
   },
   { name: "Didsbury", slug: "didsbury", postcodes: "M20" },
   { name: "Chorlton", slug: "chorlton", postcodes: "M21" },
-  { name: "Salford", slug: "salford", postcodes: "M5–M7" },
+  { name: "Salford", slug: "salford", postcodes: "M5â€“M7" },
   { name: "Trafford", slug: "trafford", postcodes: "M16, M32" },
   { name: "Sale", slug: "sale", postcodes: "M33" },
-  { name: "Altrincham", slug: "altrincham", postcodes: "WA14–WA15" },
-  { name: "Oldham", slug: "oldham", postcodes: "OL1–OL4" },
-  { name: "Rochdale", slug: "rochdale", postcodes: "OL11–OL16" },
-  { name: "Bury", slug: "bury", postcodes: "BL8–BL9" },
-  { name: "Bolton", slug: "bolton", postcodes: "BL1–BL3" },
-  { name: "Wigan", slug: "wigan", postcodes: "WN1–WN6" },
-  { name: "Tameside", slug: "tameside", postcodes: "OL5–OL7, SK14–SK16" },
+  { name: "Altrincham", slug: "altrincham", postcodes: "WA14â€“WA15" },
+  { name: "Oldham", slug: "oldham", postcodes: "OL1â€“OL4" },
+  { name: "Rochdale", slug: "rochdale", postcodes: "OL11â€“OL16" },
+  { name: "Bury", slug: "bury", postcodes: "BL8â€“BL9" },
+  { name: "Bolton", slug: "bolton", postcodes: "BL1â€“BL3" },
+  { name: "Wigan", slug: "wigan", postcodes: "WN1â€“WN6" },
+  { name: "Tameside", slug: "tameside", postcodes: "OL5â€“OL7, SK14â€“SK16" },
 ];
 
 const trustPoints = [
@@ -292,8 +292,6 @@ const trustPoints = [
 export default function ManchesterPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
-
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -350,7 +348,7 @@ export default function ManchesterPage() {
                 },
                 {
                   title: "Winter Road Salt & Grit",
-                  text: "Councils spread thousands of tonnes of salt across Greater Manchester each winter. Salt accelerates corrosion on wheel arches, sills and undercarriages — areas most car washes never touch.",
+                  text: "Councils spread thousands of tonnes of salt across Greater Manchester each winter. Salt accelerates corrosion on wheel arches, sills and undercarriages â€” areas most car washes never touch.",
                 },
                 {
                   title: "Urban Industrial Fallout",
@@ -358,7 +356,7 @@ export default function ManchesterPage() {
                 },
                 {
                   title: "Tree Sap & Bird Droppings",
-                  text: "Didsbury, Chorlton and Sale are lined with mature trees. Sap and bird droppings are acidic — left for 48 hours in warm weather, they etch permanently into clear coat and require machine correction.",
+                  text: "Didsbury, Chorlton and Sale are lined with mature trees. Sap and bird droppings are acidic â€” left for 48 hours in warm weather, they etch permanently into clear coat and require machine correction.",
                 },
                 {
                   title: "Multi-Storey Car Park Damage",
@@ -366,7 +364,7 @@ export default function ManchesterPage() {
                 },
                 {
                   title: "UV Degradation (Yes, Even Here)",
-                  text: "Even Manchester's overcast skies transmit UV radiation. Over months and years, unprotected paint fades, plastics grey and interiors crack — ceramic coatings provide year-round UV defence.",
+                  text: "Even Manchester's overcast skies transmit UV radiation. Over months and years, unprotected paint fades, plastics grey and interiors crack â€” ceramic coatings provide year-round UV defence.",
                 },
               ].map((item) => (
                 <div
@@ -433,7 +431,7 @@ export default function ManchesterPage() {
                   </p>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     Detailing is typically performed annually or for specific
-                    events — new car protection, pre-sale preparation or
+                    events â€” new car protection, pre-sale preparation or
                     correcting accumulated damage. It&apos;s the higher-investment
                     service that delivers transformative, lasting results.
                   </p>
@@ -476,7 +474,7 @@ export default function ManchesterPage() {
                     what a car wash should be.
                   </p>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Valeting is a regular service — monthly or quarterly
+                    Valeting is a regular service â€” monthly or quarterly
                     depending on usage. It maintains your car&apos;s cleanliness,
                     comfort and resale value without the deeper correction
                     work. Perfect for everyday family cars and commuters.
@@ -723,13 +721,13 @@ export default function ManchesterPage() {
                 },
                 {
                   icon: Car,
-                  title: "Genuinely Mobile — We Bring Everything",
+                  title: "Genuinely Mobile â€” We Bring Everything",
                   text: "Our custom-equipped van carries its own water supply, power generator, professional lighting and every tool needed for any service. We don't need your electricity or water (though we'll use them if offered). We work on your driveway, in your office car park or wherever suits you.",
                 },
                 {
                   icon: Sparkles,
                   title: "Premium Products, Professional Equipment",
-                  text: "We use the same brands and equipment found in dedicated detailing studios — professional-grade machine polishers, IR curing lamps for ceramic coatings, hot water extractors for interiors and pH-neutral snow foam for safe washing.",
+                  text: "We use the same brands and equipment found in dedicated detailing studios â€” professional-grade machine polishers, IR curing lamps for ceramic coatings, hot water extractors for interiors and pH-neutral snow foam for safe washing.",
                 },
                 {
                   icon: Shield,
@@ -819,8 +817,6 @@ export default function ManchesterPage() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }

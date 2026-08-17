@@ -1,12 +1,14 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { LocationHubTemplate } from '@/components/pages/LocationHubTemplate';
 import { stockportHub } from '@/data/stockport/hub';
 import { GoogleMapsEmbed } from '@/components/GoogleMapsEmbed';
 
-// ── Supplemental LocalBusiness schema ────────────────────────────────────────
+// â”€â”€ Supplemental LocalBusiness schema â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 // Uses @id to MERGE with the root-layout entity rather than creating a
 // duplicate business node. Adding `hasMap` here links the verified Google Maps
-// place (by place ID inside the embed URL) to the /stockport canonical page —
+// place (by place ID inside the embed URL) to the /stockport canonical page â€”
 // a strong local entity disambiguation signal for Google's Knowledge Graph.
 // `areaServed` is scoped to Stockport specifically on this page; the broader
 // Greater Manchester coverage lives in the root layout schema.
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
 export default function StockportPage() {
   return (
     <>
-      {/* Supplemental schema — merges hasMap into the global business entity */}
+      {/* Supplemental schema â€” merges hasMap into the global business entity */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stockportMapSchema) }}

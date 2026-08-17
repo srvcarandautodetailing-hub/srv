@@ -1,8 +1,8 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, Star, Quote } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     siteName: 'SRV Detailing',
-    images: [{ url: '/mobile-van.webp', width: 1200, height: 630, alt: 'SRV Detailing mobile valeting van — Stockport' }],
+    images: [{ url: '/mobile-van.webp', width: 1200, height: 630, alt: 'SRV Detailing mobile valeting van â€” Stockport' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -41,7 +41,7 @@ const reviews = [
     location: 'Cheadle Hulme, SK8',
     service: 'Full Valet',
     rating: 5,
-    text: 'Regular customer now — monthly full valets on the family car. Always thorough, always on time, and the car always looks showroom-fresh when they are done.',
+    text: 'Regular customer now â€” monthly full valets on the family car. Always thorough, always on time, and the car always looks showroom-fresh when they are done.',
   },
   {
     name: 'Mark S.',
@@ -55,7 +55,7 @@ const reviews = [
     location: 'Heaton Moor, SK4',
     service: 'Interior Detailing',
     rating: 5,
-    text: 'Fantastic job on my car interior. Every surface cleaned and conditioned properly. You can tell they have years of experience — the attention to detail is remarkable.',
+    text: 'Fantastic job on my car interior. Every surface cleaned and conditioned properly. You can tell they have years of experience â€” the attention to detail is remarkable.',
   },
   {
     name: 'Chris L.',
@@ -69,7 +69,7 @@ const reviews = [
     location: 'Edgeley, SK3',
     service: 'Pet Hair Removal',
     rating: 5,
-    text: 'Two labradors and a car full of hair — SRV got every last strand out. The car smells fresh and looks clean for the first time in months. Amazing service.',
+    text: 'Two labradors and a car full of hair â€” SRV got every last strand out. The car smells fresh and looks clean for the first time in months. Amazing service.',
   },
 ];
 
@@ -110,7 +110,6 @@ export default function StockportReviewsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }} />
-      <Navbar />
 
       <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-white px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -176,8 +175,6 @@ export default function StockportReviewsPage() {
 
         <CtaSection serviceName="Car Care in Stockport" />
       </main>
-
-      <Footer />
     </div>
   );
 }

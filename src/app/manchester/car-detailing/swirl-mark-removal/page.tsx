@@ -1,3 +1,5 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { ServicePageTemplate } from '@/components/pages/ServicePageTemplate';
 import { swirlMarkRemovalManchester } from '@/data/manchester/car-detailing/swirl-mark-removal';

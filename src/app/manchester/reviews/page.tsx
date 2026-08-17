@@ -1,8 +1,8 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, Star, Quote } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     siteName: 'SRV Detailing',
-    images: [{ url: '/mobile-van.webp', width: 1200, height: 630, alt: 'SRV Detailing mobile valeting van — Manchester' }],
+    images: [{ url: '/mobile-van.webp', width: 1200, height: 630, alt: 'SRV Detailing mobile valeting van â€” Manchester' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -34,14 +34,14 @@ const reviews = [
     location: 'Didsbury, M20',
     service: 'Ceramic Coating',
     rating: 5,
-    text: 'Incredible transformation on my BMW 3 Series. The ceramic coating has made washing so much easier — water just beads off. Professional service from start to finish.',
+    text: 'Incredible transformation on my BMW 3 Series. The ceramic coating has made washing so much easier â€” water just beads off. Professional service from start to finish.',
   },
   {
     name: 'Sarah M.',
     location: 'Chorlton, M21',
     service: 'Full Valet',
     rating: 5,
-    text: 'Best valet I have ever had. The interior was spotless — even got the dog hair out of every crevice. Will definitely be using SRV regularly from now on.',
+    text: 'Best valet I have ever had. The interior was spotless â€” even got the dog hair out of every crevice. Will definitely be using SRV regularly from now on.',
   },
   {
     name: 'David K.',
@@ -55,7 +55,7 @@ const reviews = [
     location: 'Sale, M33',
     service: 'Interior Detailing',
     rating: 5,
-    text: 'Two kids and a dog meant my car interior was a disaster zone. SRV brought it back to life — stains gone, smells gone, feels like a new car inside. Highly recommend.',
+    text: 'Two kids and a dog meant my car interior was a disaster zone. SRV brought it back to life â€” stains gone, smells gone, feels like a new car inside. Highly recommend.',
   },
   {
     name: 'Michael P.',
@@ -110,7 +110,6 @@ export default function ManchesterReviewsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }} />
-      <Navbar />
 
       <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-white px-4">
         <div className="max-w-4xl mx-auto text-center">
@@ -176,8 +175,6 @@ export default function ManchesterReviewsPage() {
 
         <CtaSection serviceName="Car Care in Manchester" />
       </main>
-
-      <Footer />
     </div>
   );
 }

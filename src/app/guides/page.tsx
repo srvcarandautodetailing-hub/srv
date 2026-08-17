@@ -1,8 +1,8 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, BookOpen } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { guidesData } from '@/data/guides/guides-data';
 
 export const metadata: Metadata = {
@@ -15,13 +15,11 @@ export const metadata: Metadata = {
 export default function GuidesHubPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 text-white py-20 px-4 overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Expert Car Care Guides</h1>
           <p className="text-xl text-blue-100 max-w-3xl leading-relaxed">
-            Everything you need to know about car detailing, valeting, ceramic coatings and paint care — from a professional with 22+ years of experience.
+            Everything you need to know about car detailing, valeting, ceramic coatings and paint care â€” from a professional with 22+ years of experience.
           </p>
         </div>
       </section>
@@ -50,8 +48,6 @@ export default function GuidesHubPage() {
           ))}
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

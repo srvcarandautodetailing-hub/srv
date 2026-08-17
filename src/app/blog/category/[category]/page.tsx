@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { HeroSection } from '@/components/shared/HeroSection';
 import { CtaSection } from '@/components/shared/CtaSection';
 import { getBlogPostsByCategory, getAllBlogCategories } from '@/data/blog/blog-data';
@@ -39,8 +37,6 @@ export default async function BlogCategoryPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-
       <HeroSection
         breadcrumbs={[
           { label: 'Home', href: '/' },
@@ -100,7 +96,6 @@ export default async function BlogCategoryPage({ params }: Props) {
       </main>
 
       <CtaSection />
-      <Footer />
     </div>
   );
 }

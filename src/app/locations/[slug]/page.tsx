@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import { Phone, MapPin, Clock, CheckCircle, Car, Sparkles } from 'lucide-react';
 import { notFound, redirect } from 'next/navigation';
 
@@ -291,8 +289,6 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
-      
       {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
@@ -370,8 +366,6 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }

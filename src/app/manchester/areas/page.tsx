@@ -1,8 +1,8 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { MapPin, ChevronRight } from 'lucide-react';
-import { Navbar } from '@/components/Navbar';
-import { Footer } from '@/components/Footer';
 import { CtaSection } from '@/components/shared/CtaSection';
 import { manchesterAreas } from '@/data/manchester/areas/areas-data';
 
@@ -17,8 +17,6 @@ export const metadata: Metadata = {
 export default function ManchesterAreasPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <Navbar />
-
       <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-white px-4">
         <div className="max-w-4xl mx-auto text-center">
           <nav aria-label="Breadcrumb" className="mb-6 text-sm text-muted-foreground">
@@ -64,8 +62,6 @@ export default function ManchesterAreasPage() {
 
         <CtaSection serviceName="Car Care in Manchester" />
       </main>
-
-      <Footer />
     </div>
   );
 }

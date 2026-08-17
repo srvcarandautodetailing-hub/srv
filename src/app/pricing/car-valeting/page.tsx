@@ -1,3 +1,5 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { PricingPageTemplate } from '@/components/pages/PricingPageTemplate';
 import { valetingPricing } from '@/data/pricing/pricing-data';

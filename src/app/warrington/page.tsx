@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -273,8 +271,6 @@ const trustPoints = [
 export default function WarringtonPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
-
       {/* JSON-LD */}
       <script
         type="application/ld+json"
@@ -824,8 +820,6 @@ export default function WarringtonPage() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }

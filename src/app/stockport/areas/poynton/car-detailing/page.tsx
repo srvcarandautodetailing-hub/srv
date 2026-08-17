@@ -1,3 +1,5 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { PillarPageTemplate } from '@/components/pages/PillarPageTemplate';
 import { poyntonCarDetailingPillar } from '@/data/stockport/areas/poynton/car-detailing';

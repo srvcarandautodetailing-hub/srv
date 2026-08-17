@@ -1,3 +1,5 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
 import type { Metadata } from 'next';
 import { GalleryPageTemplate } from '@/components/pages/GalleryPageTemplate';
 import { detailingGalleryData } from '@/data/gallery/gallery-data';
