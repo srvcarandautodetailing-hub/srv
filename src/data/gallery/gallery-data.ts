@@ -2,6 +2,26 @@ import type { GalleryPageData, GalleryItem } from '@/data/types';
 
 const detailingItems: GalleryItem[] = [
   {
+    id: 'detail-7',
+    title: 'BMW M4 Competition — Full Exterior Detail & Paint Correction',
+    description: 'Multi-stage paint correction and ceramic sealant applied to a Brooklands Grey BMW M4 Competition in Manchester. Swirl marks eliminated and gloss depth significantly improved.',
+    beforeImage: '/images/gallery/srv-detailing-bmw-m4-competition-exterior-rear-paint-correction-manchester.webp',
+    afterImage: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+    service: 'Paint Correction',
+    vehicle: 'BMW M4 Competition',
+    location: 'Manchester',
+  },
+  {
+    id: 'detail-8',
+    title: 'BMW M4 Competition — Red Leather Interior Deep Detail',
+    description: 'Full interior deep detail on a BMW M4 Competition — leather cleaning and conditioning on the red Merino leather, carbon trim dressing, steam-cleaned dashboard and door cards.',
+    beforeImage: '/images/gallery/srv-detailing-bmw-m4-competition-interior-dashboard-carbon-detail-manchester.webp',
+    afterImage: '/images/gallery/srv-detailing-bmw-m4-competition-red-leather-interior-detail-manchester-01.webp',
+    service: 'Interior Detailing',
+    vehicle: 'BMW M4 Competition',
+    location: 'Manchester',
+  },
+  {
     id: 'detail-1',
     title: 'Multi-Stage Paint Correction',
     description: 'Heavy swirl marks and wash marring removed with a two-stage machine polish, restoring a deep mirror finish.',

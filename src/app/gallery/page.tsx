@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     siteName: 'SRV Detailing',
     images: [
       {
-        url: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
-        width: 1200,
-        height: 630,
-        alt: 'SRV Detailing mobile ceramic coating result in Stockport â€” professional paint protection service',
+        url: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+        width: 1448,
+        height: 1086,
+        alt: 'SRV Detailing BMW M4 Competition — paint correction and ceramic coating in Manchester, mobile car detailing result',
       },
     ],
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'Mobile Car Detailing Gallery â€” Stockport & Manchester | SRV Detailing',
     description:
       'Real mobile detailing results from SRV Detailing â€” ceramic coatings, paint correction, and valeting across Stockport & Manchester.',
-    images: ['/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp'],
+    images: ['/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp'],
   },
   robots: {
     index: true,
@@ -61,6 +61,47 @@ export const metadata: Metadata = {
 // caption (short, visible on hover â€” Stockport-led where applicable).
 // Add new images by appending to this array â€” no other changes needed.
 const galleryImages = [
+  // BMW M4 Competition — featured project (September 2026)
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+    alt: 'SRV Detailing BMW M4 Competition Brooklands Grey — ceramic coating and paint correction in Manchester, SRV Detailing branded result shot on residential driveway',
+    caption: 'BMW M4 Competition · Ceramic Coating · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-exterior-side-rear-manchester-01.webp',
+    alt: 'SRV Detailing BMW M4 Competition Brooklands Grey metallic paint after multi-stage correction — deep gloss finish with black HRE wheels, mobile detailing Manchester',
+    caption: 'BMW M4 Competition · Paint Correction · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-exterior-rear-paint-correction-manchester.webp',
+    alt: 'SRV Detailing BMW M4 Competition rear showing corrected grey paintwork, carbon diffuser and quad exhausts — mobile car detailing Manchester',
+    caption: 'BMW M4 Exterior Detail · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-red-leather-interior-detail-manchester-01.webp',
+    alt: 'SRV Detailing BMW M4 Competition red Merino leather M Sport seats with M Performance sill — interior detail and leather conditioning Manchester',
+    caption: 'BMW M4 Interior Detail · Red Leather · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-red-leather-seats-interior-manchester-02.webp',
+    alt: 'SRV Detailing BMW M4 Competition red and black M Sport bucket seats with M4 headrest badge after interior deep clean — Manchester mobile detailing',
+    caption: 'BMW M4 Leather Seats · Interior Clean · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-interior-dashboard-carbon-detail-manchester.webp',
+    alt: 'SRV Detailing BMW M4 Competition carbon fibre M steering wheel, red paddle shifters and iDrive dashboard after interior detailing — Manchester',
+    caption: 'BMW M4 Dashboard & Carbon Detail · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-rear-seats-interior-detail-manchester.webp',
+    alt: 'SRV Detailing BMW M4 Competition red Merino leather rear seats cleaned and conditioned — interior detailing service Manchester',
+    caption: 'BMW M4 Rear Seats · Interior Detail · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-bmw-m4-competition-interior-passenger-side-manchester.webp',
+    alt: 'SRV Detailing BMW M4 Competition passenger side showing red M Sport seats and M Performance sill trim after full interior detail — Manchester',
+    caption: 'BMW M4 Full Interior · M Performance · Manchester',
+  },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
     alt: 'SRV Detailing mobile ceramic coating in Stockport â€” mirror-like gloss and long-lasting paint protection applied at your home',
@@ -264,8 +305,22 @@ const jsonLd = {
           },
         ],
       },
-      // 5 representative gallery images surfaced in LocalBusiness entity
+      // 7 representative gallery images surfaced in LocalBusiness entity
       image: [
+        {
+          '@type': 'ImageObject',
+          contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+          name: 'SRV Detailing BMW M4 Competition Ceramic Coating Manchester',
+          description: 'SRV Detailing BMW M4 Competition Brooklands Grey — paint correction and ceramic coating mobile service in Manchester',
+          encodingFormat: 'image/webp',
+        },
+        {
+          '@type': 'ImageObject',
+          contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-bmw-m4-competition-red-leather-interior-detail-manchester-01.webp',
+          name: 'SRV Detailing BMW M4 Interior Detailing Manchester',
+          description: 'SRV Detailing BMW M4 Competition red Merino leather interior — full interior detailing including leather conditioning in Manchester',
+          encodingFormat: 'image/webp',
+        },
         {
           '@type': 'ImageObject',
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',

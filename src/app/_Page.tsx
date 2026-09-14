@@ -102,6 +102,9 @@ const HomePageClient = () => {
         {/* Quality Approach Section */}
         <QualityApproachSection />
 
+        {/* Featured Project — BMW M4 Competition */}
+        <FeaturedProjectSection />
+
         {/* Service Area Coverage - All 16 Locations with Links */}
         <EnhancedServiceAreaSection />
 
@@ -1051,6 +1054,123 @@ const QualityApproachSection = () => {
             </motion.div>
           </div>
         </div>
+      </div>
+    </section>
+  );
+};
+
+// Featured Project — BMW M4 Competition full detail showcase
+const FeaturedProjectSection = () => {
+  return (
+    <section className="py-16 sm:py-20 lg:py-24 bg-slate-900 text-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-12"
+        >
+          <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <Sparkles className="w-4 h-4" />
+            Recent Project
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+            BMW M4 Competition — <span className="text-primary">Full Detail</span>
+          </h2>
+          <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+            Multi-stage paint correction, ceramic sealant, and full interior leather conditioning carried out at the customer's home in Manchester by SRV Detailing.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+          {/* Exterior hero shot */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] lg:aspect-auto lg:min-h-[400px]"
+          >
+            <Image
+              src="/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"
+              alt="SRV Detailing BMW M4 Competition Brooklands Grey — paint correction and ceramic coating at customer's home in Manchester"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              quality={85}
+            />
+            <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-5">
+              <p className="text-white font-semibold">BMW M4 Competition · Exterior Detail & Ceramic Coating</p>
+              <p className="text-slate-300 text-sm">Manchester · Mobile Service</p>
+            </div>
+          </motion.div>
+
+          {/* Interior grid — 2 images stacked */}
+          <div className="grid grid-rows-2 gap-6">
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[180px]"
+            >
+              <Image
+                src="/images/gallery/srv-detailing-bmw-m4-competition-red-leather-interior-detail-manchester-01.webp"
+                alt="SRV Detailing BMW M4 Competition red Merino leather M Sport seats with M Performance sill after interior detailing Manchester"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 25vw"
+                quality={85}
+              />
+              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                <p className="text-white font-semibold text-sm">Red Merino Leather Interior Detail</p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[180px]"
+            >
+              <Image
+                src="/images/gallery/srv-detailing-bmw-m4-competition-interior-dashboard-carbon-detail-manchester.webp"
+                alt="SRV Detailing BMW M4 Competition carbon fibre steering wheel, red paddle shifters and iDrive dashboard after interior detail Manchester"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 25vw"
+                quality={85}
+              />
+              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                <p className="text-white font-semibold text-sm">Carbon Trim & Dashboard Detailing</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Work summary badges + CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="flex flex-col sm:flex-row items-center justify-between gap-6 bg-white/5 border border-white/10 rounded-2xl p-6"
+        >
+          <div className="flex flex-wrap gap-3 justify-center sm:justify-start">
+            {['Multi-Stage Paint Correction', 'Ceramic Sealant', 'Red Leather Conditioning', 'Carbon Trim Dressing', 'Steam Interior Clean'].map((tag) => (
+              <span key={tag} className="bg-primary/20 border border-primary/30 text-primary text-sm px-3 py-1 rounded-full font-medium">
+                {tag}
+              </span>
+            ))}
+          </div>
+          <Link
+            href="/gallery"
+            className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-bold whitespace-nowrap transition-colors"
+          >
+            <Car className="w-4 h-4" />
+            See Full Gallery
+          </Link>
+        </motion.div>
       </div>
     </section>
   );
