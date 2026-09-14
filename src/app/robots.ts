@@ -75,11 +75,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/'],
       },
     ],
-    sitemap: [
-      'https://www.srvdetailing.co.uk/sitemap.xml',
-      'https://www.srvdetailing.co.uk/image-sitemap.xml',
-      'https://www.srvdetailing.co.uk/sitemap-index.xml',
-    ],
+    sitemap: 'https://www.srvdetailing.co.uk/sitemap.xml',
     host: 'https://www.srvdetailing.co.uk',
   };
 }
