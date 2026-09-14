@@ -8,7 +8,7 @@ import { getAllCongletonAreaSlugs } from '@/data/congleton/areas/areas-data';
 import { getAllMacclesfieldAreaSlugs } from '@/data/macclesfield/areas/areas-data';
 import { getAllWarringtonAreaSlugs } from '@/data/warrington/areas/areas-data';
 import { faqTopicsData } from '@/data/faq/faq-data';
-import { getAllBlogSlugs } from '@/data/blog/blog-data';
+import { getAllBlogSlugs, getAllBlogCategories } from '@/data/blog/blog-data';
 
 const BASE = 'https://www.srvdetailing.co.uk';
 
@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE, lastModified: now, changeFrequency: 'weekly', priority: 1 },
     { url: `${BASE}/about-us`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/services`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/services/engine-bay-detailing`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/services/leather-conditioning`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/services/odour-removal`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/locations`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
@@ -338,7 +341,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  // Blog (dynamic)
+  // Blog posts (dynamic)
   const blogPages: MetadataRoute.Sitemap = [
     ...getAllBlogSlugs().map((slug) => ({
       url: `${BASE}/blog/${slug}`,
@@ -347,6 +350,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     })),
   ];
+
+  // Blog category listing pages (dynamic — one page per unique category)
+  const blogCategoryPages: MetadataRoute.Sitemap = getAllBlogCategories().map((category) => ({
+    url: `${BASE}/blog/category/${category.toLowerCase().replace(/\s+/g, '-')}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }));
 
   // Gallery
   const galleryPages: MetadataRoute.Sitemap = [
@@ -375,6 +386,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...pricingPages,
     ...faqPages,
     ...blogPages,
+    ...blogCategoryPages,
     ...galleryPages,
   ];
 }
