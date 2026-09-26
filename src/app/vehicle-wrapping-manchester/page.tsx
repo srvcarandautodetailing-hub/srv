@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     siteName: 'SRV Detailing',
     images: [
       {
-        url: '/images/gallery/srv-detailing-bmw-m4-competition-exterior-side-rear-manchester-01.webp',
-        width: 1600,
-        height: 1200,
-        alt: 'SRV Detailing vehicle wrapping and custom vehicle graphics — Manchester and Stockport',
+        url: '/images/gallery/srv-detailing-full-commercial-van-wrap-vw-caddy-mcr-smart-repairs-manchester.webp',
+        width: 2040,
+        height: 1536,
+        alt: 'Vehicle wrapping Manchester — full commercial van wrap by SRV Detailing, Stockport',
       },
     ],
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: vehicleWrappingManchester.seo.title,
     description: vehicleWrappingManchester.seo.description,
-    images: ['/images/gallery/srv-detailing-bmw-m4-competition-exterior-side-rear-manchester-01.webp'],
+    images: ['/images/gallery/srv-detailing-full-commercial-van-wrap-vw-caddy-mcr-smart-repairs-manchester.webp'],
   },
   robots: {
     index: true,

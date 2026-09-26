@@ -102,6 +102,27 @@ const galleryImages = [
     alt: 'SRV Detailing BMW M4 Competition passenger side showing red M Sport seats and M Performance sill trim after full interior detail — Manchester',
     caption: 'BMW M4 Full Interior · M Performance · Manchester',
   },
+  // Vehicle Wrapping & Custom Graphics
+  {
+    src: '/images/gallery/srv-detailing-full-commercial-van-wrap-vw-caddy-mcr-smart-repairs-manchester.webp',
+    alt: 'SRV Detailing full commercial van wrap — VW Caddy in dark grey and gold MCR Smart Repairs livery, vehicle graphics and branding Manchester',
+    caption: 'Commercial Van Wrap · VW Caddy · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-van-wrap-vw-caddy-bonnet-commercial-branding-manchester.webp',
+    alt: 'SRV Detailing van bonnet wrap — VW Caddy with MCR Smart Repairs dark grey and gold full bonnet branding, vehicle wrapping Manchester',
+    caption: 'Van Bonnet Wrap · MCR Smart Repairs · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-commercial-vehicle-graphics-boss-pizza-toyota-yaris-manchester.webp',
+    alt: 'SRV Detailing commercial vehicle graphics — Boss Pizza red and white full-body branding on Toyota Yaris, custom vehicle wrap Manchester',
+    caption: 'Vehicle Graphics · Boss Pizza · Manchester',
+  },
+  {
+    src: '/images/gallery/srv-detailing-racing-stripes-partial-wrap-ford-mustang-manchester.webp',
+    alt: 'SRV Detailing partial vehicle wrap — dual black matte racing stripes on red Ford Mustang bonnet and roof, custom wrap Manchester',
+    caption: 'Racing Stripes Wrap · Ford Mustang · Manchester',
+  },
   {
     src: '/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp',
     alt: 'SRV Detailing mobile ceramic coating in Stockport â€” mirror-like gloss and long-lasting paint protection applied at your home',
@@ -319,6 +340,20 @@ const jsonLd = {
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-bmw-m4-competition-red-leather-interior-detail-manchester-01.webp',
           name: 'SRV Detailing BMW M4 Interior Detailing Manchester',
           description: 'SRV Detailing BMW M4 Competition red Merino leather interior — full interior detailing including leather conditioning in Manchester',
+          encodingFormat: 'image/webp',
+        },
+        {
+          '@type': 'ImageObject',
+          contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-full-commercial-van-wrap-vw-caddy-mcr-smart-repairs-manchester.webp',
+          name: 'SRV Detailing Commercial Van Wrap Manchester',
+          description: 'SRV Detailing full commercial van wrap — VW Caddy in dark grey and gold MCR Smart Repairs livery, vehicle graphics and branding Manchester',
+          encodingFormat: 'image/webp',
+        },
+        {
+          '@type': 'ImageObject',
+          contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-commercial-vehicle-graphics-boss-pizza-toyota-yaris-manchester.webp',
+          name: 'SRV Detailing Commercial Vehicle Graphics Manchester',
+          description: 'SRV Detailing commercial vehicle graphics — Boss Pizza red and white full-body branding on Toyota Yaris, custom vehicle wrap Manchester',
           encodingFormat: 'image/webp',
         },
         {

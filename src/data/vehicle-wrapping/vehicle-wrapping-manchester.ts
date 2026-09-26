@@ -30,16 +30,20 @@ export const vehicleWrappingManchester: ServicePageData = {
     'Professional vinyl vehicle wrapping, custom graphics, commercial van branding and fleet vehicle livery across Manchester, Stockport and Greater Manchester. From colour change wraps to full commercial vehicle branding — contact SRV Detailing for a tailored quote.',
   heroImages: [
     {
-      src: '/images/gallery/srv-detailing-bmw-m4-competition-exterior-side-rear-manchester-01.webp',
-      alt: 'Professionally finished vehicle in Manchester — SRV Detailing vehicle wrapping and graphics service',
+      src: '/images/gallery/srv-detailing-full-commercial-van-wrap-vw-caddy-mcr-smart-repairs-manchester.webp',
+      alt: 'Full commercial van wrap — VW Caddy with MCR Smart Repairs branded vehicle graphics by SRV Detailing, Manchester',
     },
     {
-      src: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
-      alt: 'SRV Detailing prestige vehicle finish — vehicle wrapping and exterior protection in Manchester',
+      src: '/images/gallery/srv-detailing-van-wrap-vw-caddy-bonnet-commercial-branding-manchester.webp',
+      alt: 'Van bonnet wrap — VW Caddy with MCR Smart Repairs full bonnet branding by SRV Detailing, Manchester',
     },
     {
-      src: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-01.webp.webp',
-      alt: 'SRV Detailing professional vehicle preparation and finishing — serving Manchester, Stockport and Greater Manchester',
+      src: '/images/gallery/srv-detailing-commercial-vehicle-graphics-boss-pizza-toyota-yaris-manchester.webp',
+      alt: 'Commercial vehicle graphics — Boss Pizza branding on Toyota Yaris by SRV Detailing, Manchester',
+    },
+    {
+      src: '/images/gallery/srv-detailing-racing-stripes-partial-wrap-ford-mustang-manchester.webp',
+      alt: 'Partial vehicle wrap — black racing stripes on red Ford Mustang by SRV Detailing, Manchester',
     },
   ],
   contentSections: [
