@@ -1,0 +1,70 @@
+﻿export const dynamic = 'force-static';
+export const revalidate = 86400;
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { ChevronRight, Sparkles, Car } from 'lucide-react';
+import { CtaSection } from '@/components/shared/CtaSection';
+import { PricingHubHero } from '@/components/pages/PricingHubHero';
+
+export const metadata: Metadata = {
+  title: 'Pricing | Car Detailing & Valeting Prices | SRV Detailing',
+  description:
+    'Transparent pricing for car detailing and valeting in Manchester and Stockport. No hidden costs. View our packages and book today.',
+  alternates: { canonical: 'https://www.srvdetailing.co.uk/pricing' },
+};
+
+export default function PricingHubPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <PricingHubHero />
+
+      <main className="max-w-7xl mx-auto px-4 py-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <Link
+            href="/pricing/car-detailing"
+            className="group p-8 bg-white rounded-xl shadow-md border border-slate-100 hover:shadow-lg hover:border-primary/20 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-3 bg-primary/10 rounded-lg">
+                <Sparkles className="w-8 h-8 text-primary" />
+              </div>
+              <h2 className="text-2xl font-bold text-slate-900 group-hover:text-primary transition-colors">
+                Car Detailing Prices
+              </h2>
+            </div>
+            <p className="text-slate-600 mb-4">
+              Paint correction, ceramic coating, interior detailing and new car protection packages.
+            </p>
+            <p className="text-lg font-bold text-primary mb-4">From Â£250</p>
+            <span className="inline-flex items-center gap-1 text-primary font-semibold">
+              View detailing prices <ChevronRight className="w-4 h-4" />
+            </span>
+          </Link>
+
+          <Link
+            href="/pricing/car-valeting"
+            className="group p-8 bg-white rounded-xl shadow-md border border-slate-100 hover:shadow-lg hover:border-primary/20 transition-all"
+          >
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-3 bg-primary/10 rounded-lg">
+                <Car className="w-8 h-8 text-primary" />
+              </div>
+              <h2 className="text-2xl font-bold text-slate-900 group-hover:text-primary transition-colors">
+                Car Valeting Prices
+              </h2>
+            </div>
+            <p className="text-slate-600 mb-4">
+              Mini valets, full valets and premium valeting packages for regular maintenance.
+            </p>
+            <p className="text-lg font-bold text-primary mb-4">From Â£50</p>
+            <span className="inline-flex items-center gap-1 text-primary font-semibold">
+              View valeting prices <ChevronRight className="w-4 h-4" />
+            </span>
+          </Link>
+        </div>
+
+        <CtaSection />
+      </main>
+    </div>
+  );
+}
