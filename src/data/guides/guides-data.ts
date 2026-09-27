@@ -5,9 +5,9 @@ export const guidesData: GuidePageData[] = [
     slug: 'what-is-car-detailing',
     title: 'What Is Car Detailing? Complete Guide',
     seo: {
-      title: 'What Is Car Detailing? Complete Guide for 2025 | SRV Detailing',
+      title: 'What Is Car Detailing? Cost, What\'s Included & Is It Worth It | SRV Detailing',
       description:
-        'Everything you need to know about car detailing. What it includes, how it differs from valeting, costs, frequency and what to expect from a professional service.',
+        'Car detailing from £80. Everything you need to know — paint correction, ceramic coating, interior deep cleaning. How it differs from valeting and how much it costs.',
       keywords: ['what is car detailing', 'car detailing explained', 'car detailing guide', 'car detailing vs car wash'],
       canonical: 'https://www.srvdetailing.co.uk/guides/what-is-car-detailing',
     },
@@ -20,7 +20,7 @@ export const guidesData: GuidePageData[] = [
     heroDescription:
       'A complete guide to professional car detailing — what it includes, how it works, and why it\'s different from a standard car wash or valet.',
     publishedDate: '2025-01-15',
-    updatedDate: '2025-06-01',
+    updatedDate: '2026-09-01',
     contentSections: [
       {
         type: 'text',
@@ -70,6 +70,14 @@ export const guidesData: GuidePageData[] = [
         question: 'How long does car detailing take?',
         answer: 'A full exterior detail takes 6–10 hours. Interior detailing takes 3–5 hours. A complete detail covering both can take 1–2 days depending on the vehicle\'s size and condition.',
       },
+      {
+        question: 'How much does car detailing cost?',
+        answer: 'Interior detailing starts from £80, exterior detailing from £100, and paint correction from £150. Ceramic coating packages start from £300 for a 3-year entry coating up to £1,200+ for premium 7-year protection. A full detail with multi-stage correction and ceramic coating typically ranges from £500 to £1,500+ depending on vehicle size.',
+      },
+      {
+        question: 'What is the difference between car detailing and car valeting?',
+        answer: 'Car valeting is professional cleaning and maintenance — it makes your car look clean and fresh. Car detailing is restoration and protection — it corrects paint defects using machine polishing and applies protective coatings such as ceramic coating. Most car owners benefit from regular valeting every 4–6 weeks and professional detailing once or twice a year.',
+      },
     ],
     relatedLinks: [
       { label: 'What Is Car Valeting?', href: '/guides/what-is-car-valeting', description: 'Compare with valeting' },
@@ -82,9 +90,9 @@ export const guidesData: GuidePageData[] = [
     slug: 'what-is-car-valeting',
     title: 'What Is Car Valeting? Complete Guide',
     seo: {
-      title: 'What Is Car Valeting? Complete Guide for 2025 | SRV Detailing',
+      title: 'What Is Car Valeting? Cost, What\'s Included & How Long It Takes | SRV Detailing',
       description:
-        'Everything you need to know about car valeting. What\'s included, how often you need it, costs, and how it differs from car detailing.',
+        'Full car valet from £65. Find out what professional car valeting includes, how it differs from a car wash, how much it costs and how long it takes. Prices and FAQ.',
       keywords: ['what is car valeting', 'car valeting explained', 'car valet guide', 'car valeting vs detailing'],
       canonical: 'https://www.srvdetailing.co.uk/guides/what-is-car-valeting',
     },
@@ -97,7 +105,7 @@ export const guidesData: GuidePageData[] = [
     heroDescription:
       'A complete guide to professional car valeting — what it includes, how it differs from detailing, and why it\'s better than a standard car wash.',
     publishedDate: '2025-01-20',
-    updatedDate: '2025-06-01',
+    updatedDate: '2026-09-01',
     contentSections: [
       {
         type: 'text',
@@ -148,6 +156,18 @@ export const guidesData: GuidePageData[] = [
         question: 'Do I need valeting if my car has a ceramic coating?',
         answer: 'Yes, but less frequently. Ceramic coatings make cleaning easier but don\'t eliminate the need for it. A professional valet every 6–8 weeks, using coating-safe products, maintains the coating\'s performance and appearance.',
       },
+      {
+        question: 'How much does a full car valet cost?',
+        answer: 'A full car valet starts from £65 for a standard hatchback and up to £90–£120 for a large SUV or van. A maintenance valet (60–90 minutes) starts from £45. Mobile valeting prices include travel to your location — there is no call-out fee.',
+      },
+      {
+        question: 'How long does a car valet take?',
+        answer: 'A maintenance valet takes 60–90 minutes. A full valet (complete interior and exterior clean with protection) takes 3–4 hours. Times vary slightly depending on vehicle size and condition.',
+      },
+      {
+        question: 'What is the difference between car valeting and car detailing?',
+        answer: 'Car valeting is professional cleaning — it makes your car look clean, fresh and well-maintained. Car detailing is restoration and protection — it uses machine polishing to correct paint defects and applies ceramic coatings for long-term protection. Most car owners benefit from regular valeting (every 4–6 weeks) and full detailing once or twice a year.',
+      },
     ],
     relatedLinks: [
       { label: 'What Is Car Detailing?', href: '/guides/what-is-car-detailing', description: 'Compare with detailing' },
@@ -160,7 +180,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-often-should-you-valet-your-car',
     title: 'How Often Should You Valet Your Car?',
     seo: {
-      title: 'How Often Should You Valet Your Car? 2025 Guide | SRV Detailing',
+      title: 'How Often Should You Valet Your Car? 2026 Guide | SRV Detailing',
       description:
         'Discover the ideal car valeting frequency based on your driving habits, parking conditions, and lifestyle. Seasonal calendar with monthly, quarterly and annual recommendations.',
       keywords: ['how often valet car', 'car valeting frequency', 'car valeting schedule', 'when to valet car'],
@@ -233,7 +253,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-often-should-you-detail-your-car',
     title: 'How Often Should You Detail Your Car?',
     seo: {
-      title: 'How Often Should You Detail Your Car? 2025 Guide | SRV Detailing',
+      title: 'How Often Should You Detail Your Car? 2026 Guide | SRV Detailing',
       description:
         'Learn the recommended frequency for each type of car detailing service — paint correction, ceramic coating, interior detailing and more. Expert advice for UK car owners.',
       keywords: ['how often detail car', 'car detailing frequency', 'detailing schedule', 'when to detail car'],
@@ -301,7 +321,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'car-detailing-step-by-step',
     title: 'Car Detailing Step by Step: The Professional Process',
     seo: {
-      title: 'Car Detailing Step by Step: 12-Step Professional Process for 2025 | SRV Detailing',
+      title: 'Car Detailing Step by Step: 12-Step Professional Process (2026) | SRV Detailing',
       description:
         'Follow the complete 12-step professional car detailing process with time estimates for each stage. From decontamination wash to ceramic coating application.',
       keywords: ['car detailing step by step', 'detailing process', 'how to detail a car', 'professional detailing steps'],
@@ -375,7 +395,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'car-valeting-checklist',
     title: 'Car Valeting Checklist: Interior & Exterior',
     seo: {
-      title: 'Car Valeting Checklist: Complete Interior & Exterior Guide for 2025 | SRV Detailing',
+      title: 'Car Valeting Checklist: Complete Interior & Exterior Guide (2026) | SRV Detailing',
       description:
         'The complete car valeting checklist covering interior and exterior tasks. Professional and DIY versions to ensure nothing is missed during your valet.',
       keywords: ['car valeting checklist', 'car valet checklist', 'valeting task list', 'what to check when valeting'],
@@ -458,7 +478,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'what-does-a-full-valet-include',
     title: 'What Does a Full Valet Include?',
     seo: {
-      title: 'What Does a Full Valet Include? Complete Breakdown for 2025 | SRV Detailing',
+      title: 'What Does a Full Valet Include? Complete Breakdown (2026) | SRV Detailing',
       description:
         'An exhaustive breakdown of what a full car valet includes, with time per step and what to expect from a professional mobile valeting service.',
       keywords: ['full valet includes', 'what is a full valet', 'full car valet', 'full valet checklist'],
@@ -511,7 +531,7 @@ export const guidesData: GuidePageData[] = [
     faqs: [
       {
         question: 'How much does a full valet cost?',
-        answer: 'A professional full valet typically costs between £100 and £200, depending on vehicle size and condition. Larger vehicles like SUVs and vans are at the higher end. Mobile services may include a small convenience premium but save you time and fuel.',
+        answer: 'A professional full valet starts from £65 for a standard hatchback, up to £90–£120 for a large SUV or van. Mobile valeting — where the detailer comes to you — includes travel at no extra cost. Prices vary with vehicle size and interior condition.',
       },
       {
         question: 'How long does a full valet last?',
@@ -532,7 +552,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'ceramic-coating-explained',
     title: 'Ceramic Coating Explained: How It Works',
     seo: {
-      title: 'Ceramic Coating Explained: How It Works in 2025 | SRV Detailing',
+      title: 'Ceramic Coating Explained: How It Works in 2026 | SRV Detailing',
       description:
         'Understand ceramic coating technology — SiO2 nanotechnology, hydrophobic properties, UV resistance and how it protects your car\'s paintwork for years.',
       keywords: ['ceramic coating explained', 'how ceramic coating works', 'SiO2 coating', 'ceramic paint protection'],
@@ -606,7 +626,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'paint-correction-guide',
     title: 'Paint Correction Guide: 1-Stage, 2-Stage & 3-Stage',
     seo: {
-      title: 'Paint Correction Guide: 1-Stage, 2-Stage & 3-Stage for 2025 | SRV Detailing',
+      title: 'Paint Correction Guide: 1-Stage, 2-Stage & 3-Stage for 2026 | SRV Detailing',
       description:
         'Understand the different stages of paint correction — single-stage enhancement through to multi-stage restoration. Paint thickness, compounds, and expected results.',
       keywords: ['paint correction guide', 'paint correction stages', '1 stage vs 2 stage', 'paint correction explained'],
@@ -678,7 +698,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-to-maintain-ceramic-coating',
     title: 'How to Maintain Your Ceramic Coating',
     seo: {
-      title: 'How to Maintain Ceramic Coating: Complete Care Guide for 2025 | SRV Detailing',
+      title: 'How to Maintain Ceramic Coating: Complete Care Guide for 2026 | SRV Detailing',
       description:
         'Keep your ceramic coating performing at its best with this maintenance guide. pH-neutral washing, avoiding wax, annual inspections, and a complete maintenance schedule.',
       keywords: ['maintain ceramic coating', 'ceramic coating care', 'ceramic coating maintenance', 'ceramic coating aftercare'],
@@ -752,7 +772,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-to-remove-swirl-marks',
     title: 'How to Remove Swirl Marks from Car Paint',
     seo: {
-      title: 'How to Remove Swirl Marks from Car Paint for 2025 | SRV Detailing',
+      title: 'How to Remove Swirl Marks from Car Paint for 2026 | SRV Detailing',
       description:
         'Learn how to remove swirl marks from your car\'s paintwork. DIY vs professional methods compared, with a guide to machine polishers, compounds, and technique.',
       keywords: ['remove swirl marks', 'swirl mark removal', 'car paint swirl marks', 'how to fix swirl marks'],
@@ -827,7 +847,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-to-protect-car-paint',
     title: 'How to Protect Car Paint: Layered Protection Strategy',
     seo: {
-      title: 'How to Protect Car Paint: Complete Guide for 2025 | SRV Detailing',
+      title: 'How to Protect Car Paint: Complete Guide for 2026 | SRV Detailing',
       description:
         'A layered paint protection strategy from wash technique to ceramic coating and PPF. Understand which products protect against what and how to combine them effectively.',
       keywords: ['protect car paint', 'car paint protection', 'paint protection guide', 'ceramic coating vs ppf vs wax'],
@@ -900,7 +920,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-to-clean-leather-seats',
     title: 'How to Clean Leather Seats',
     seo: {
-      title: 'How to Clean Leather Seats: Care Guide for 2025 | SRV Detailing',
+      title: 'How to Clean Leather Seats: Care Guide for 2026 | SRV Detailing',
       description: 'Learn how to clean and condition leather car seats properly. Real vs faux leather care differences, product recommendations, and a 2-step cleaning process.',
       keywords: ['clean leather seats', 'leather seat care', 'leather conditioning', 'leather car seats'],
       canonical: 'https://www.srvdetailing.co.uk/guides/how-to-clean-leather-seats',
@@ -1025,7 +1045,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'how-to-remove-car-odours',
     title: 'How to Remove Car Odours',
     seo: {
-      title: 'How to Remove Car Odours: Complete Guide for 2025 | SRV Detailing',
+      title: 'How to Remove Car Odours: Complete Guide for 2026 | SRV Detailing',
       description: 'How to identify and eliminate car odours — from smoke and pet smells to damp and food. Ozone treatment, enzymatic cleaners, and when to call a professional.',
       keywords: ['remove car odours', 'car smell removal', 'smoke smell car', 'car odour treatment'],
       canonical: 'https://www.srvdetailing.co.uk/guides/how-to-remove-car-odours',
@@ -1085,7 +1105,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'is-car-detailing-worth-it',
     title: 'Is Car Detailing Worth It?',
     seo: {
-      title: 'Is Car Detailing Worth It? ROI Analysis for 2025 | SRV Detailing',
+      title: 'Is Car Detailing Worth It? ROI Analysis for 2026 | SRV Detailing',
       description: 'A data-backed analysis of whether professional car detailing is worth the investment. Resale value uplift, paint preservation, and long-term cost savings.',
       keywords: ['is car detailing worth it', 'car detailing value', 'car detailing benefits', 'detailing ROI'],
       canonical: 'https://www.srvdetailing.co.uk/guides/is-car-detailing-worth-it',
@@ -1145,7 +1165,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'best-car-cleaning-products',
     title: 'Best Car Cleaning Products UK',
     seo: {
-      title: 'Best Car Cleaning Products UK: 2025 Recommendations | SRV Detailing',
+      title: 'Best Car Cleaning Products UK: 2026 Recommendations | SRV Detailing',
       description: 'Professional recommendations for the best car cleaning products available in the UK. Shampoo, wax, clay bar, microfibre and more — budget vs premium options.',
       keywords: ['best car cleaning products', 'car detailing products UK', 'best car shampoo', 'car care products'],
       canonical: 'https://www.srvdetailing.co.uk/guides/best-car-cleaning-products',
@@ -1208,7 +1228,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'winter-car-care-guide',
     title: 'Winter Car Care Guide UK',
     seo: {
-      title: 'Winter Car Care Guide UK: Protect Your Car in 2025 | SRV Detailing',
+      title: 'Winter Car Care Guide UK: Protect Your Car in 2026 | SRV Detailing',
       description: 'Protect your car through the UK winter — road salt, grit, frost and heavy rain. A monthly checklist for Manchester and Stockport drivers.',
       keywords: ['winter car care', 'protect car from salt', 'winter car cleaning', 'winter car maintenance'],
       canonical: 'https://www.srvdetailing.co.uk/guides/winter-car-care-guide',
@@ -1270,7 +1290,7 @@ export const guidesData: GuidePageData[] = [
     slug: 'summer-car-care-guide',
     title: 'Summer Car Care Guide UK',
     seo: {
-      title: 'Summer Car Care Guide UK: Protect Your Car in 2025 | SRV Detailing',
+      title: 'Summer Car Care Guide UK: Protect Your Car in 2026 | SRV Detailing',
       description: 'Summer car care tips for UK drivers — UV damage, tree sap, pollen, insect splatter and more. Seasonal cleaning schedule and product recommendations.',
       keywords: ['summer car care', 'protect car from sun', 'summer car cleaning', 'pollen car damage'],
       canonical: 'https://www.srvdetailing.co.uk/guides/summer-car-care-guide',

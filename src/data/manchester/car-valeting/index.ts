@@ -5,15 +5,18 @@ export const manchesterCarValetingPillar: PillarPageData = {
   slug: 'car-valeting',
   name: 'Car Valeting in Manchester',
   seo: {
-    title: 'Car Valeting Manchester | Mobile Valeting Service | SRV Detailing',
+    title: 'Car Valeting Manchester | From £45 | Mobile to Your Door | SRV Detailing',
     description:
-      'Professional mobile car valeting in Manchester. Full valets, mini valets, interior and exterior packages. 22+ years experience. We come to you across Greater Manchester.',
+      'Mobile car valeting in Manchester from £45. Full valets from £65, interior or exterior packages. 22+ years experience. We come to your home or workplace — no travel needed.',
     keywords: [
       'car valeting manchester',
       'mobile car valeting manchester',
       'full valet manchester',
       'car wash manchester',
       'professional valeting manchester',
+      'car valeting near me manchester',
+      'mobile car valet at home manchester',
+      'full valet cost manchester',
     ],
     canonical: 'https://www.srvdetailing.co.uk/manchester/car-valeting',
   },

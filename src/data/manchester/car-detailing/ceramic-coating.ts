@@ -5,15 +5,18 @@ export const ceramicCoatingManchester: ServicePageData = {
   slug: 'ceramic-coating',
   name: 'Ceramic Coating Manchester',
   seo: {
-    title: 'Ceramic Coating Manchester | Long-Term Paint Protection | SRV Detailing',
+    title: 'Ceramic Coating Manchester | From £300 | Mobile Paint Protection | SRV Detailing',
     description:
-      'Professional ceramic coating in Manchester. 2 to 7+ year paint protection against rain, road salt and UV damage. Accredited application. Mobile service across Greater Manchester.',
+      'Ceramic coating in Manchester from £300. 2–7+ year paint protection against rain, road salt and UV. Includes paint correction. Mobile service — we come to your driveway across Greater Manchester.',
     keywords: [
       'ceramic coating manchester',
       'car ceramic coating manchester',
       'ceramic paint protection manchester',
       'ceramic coating near me',
       'best ceramic coating manchester',
+      'ceramic coating cost manchester',
+      'how much is ceramic coating manchester',
+      'mobile ceramic coating manchester',
     ],
     canonical: 'https://www.srvdetailing.co.uk/manchester/car-detailing/ceramic-coating',
   },

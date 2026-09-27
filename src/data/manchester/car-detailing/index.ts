@@ -7,7 +7,7 @@ export const manchesterCarDetailingPillar: PillarPageData = {
   seo: {
     title: 'Car Detailing Manchester | Paint Correction & Ceramic Coating | SRV Detailing',
     description:
-      'Professional car detailing in Manchester. Paint correction, ceramic coating, interior detailing and new car protection. 22+ years experience. Mobile service across Greater Manchester.',
+      'Car detailing in Manchester. Paint correction from £150, ceramic coating from £300, interior detailing from £80. 22+ years experience. We come to you across Greater Manchester.',
     keywords: [
       'car detailing manchester',
       'paint correction manchester',

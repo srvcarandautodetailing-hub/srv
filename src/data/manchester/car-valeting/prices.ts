@@ -5,8 +5,8 @@ export const valetingPricesManchester: ServicePageData = {
   slug: 'prices',
   name: 'Car Valeting Prices Manchester',
   seo: {
-    title: 'Car Valeting Prices Manchester | SRV Detailing',
-    description: 'Car valeting prices for Manchester. Full valet from £90, maintenance valet from £45, interior valet from £80. Transparent pricing, no hidden costs.',
+    title: 'Car Valeting Prices Manchester | Full Valet £65 | SRV Detailing',
+    description: 'Car valeting prices in Manchester. Full valet from £65, maintenance valet from £45, interior valet from £35. No call-out fee, no hidden charges. Instant quote available.',
     keywords: ['car valeting prices manchester', 'full valet cost manchester', 'maintenance valet price', 'valeting price list manchester'],
     canonical: 'https://www.srvdetailing.co.uk/manchester/car-valeting/prices',
   },

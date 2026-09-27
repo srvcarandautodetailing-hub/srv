@@ -5,9 +5,9 @@ export const carWashManchester: ServicePageData = {
   slug: 'car-wash',
   name: 'Car Wash Manchester',
   seo: {
-    title: 'Car Wash Manchester | Mobile Hand Car Wash | SRV Detailing',
+    title: 'Car Wash Manchester | Hand Wash From £30 | We Come to You | SRV Detailing',
     description:
-      'Professional mobile car wash in Manchester. We come to your home or workplace — no queues, no automated brushes. Hand wash, rinse and dry from £30. All Greater Manchester areas covered.',
+      'Mobile hand car wash in Manchester from £30. No queues, no automated brushes — we come to your home or workplace. Snow foam pre-wash, two-bucket hand wash, wheel clean. All Greater Manchester areas.',
     keywords: [
       'car wash manchester',
       'hand car wash manchester',

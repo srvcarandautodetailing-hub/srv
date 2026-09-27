@@ -4,9 +4,9 @@ export const detailingPricing: PricingPageData = {
   slug: 'car-detailing',
   title: 'Car Detailing Prices',
   seo: {
-    title: 'Car Detailing Prices Manchester & Stockport | SRV Detailing',
+    title: 'Car Detailing Prices | Ceramic Coating From £300 | SRV Detailing',
     description:
-      'Car detailing prices for Manchester and Stockport. Ceramic coating from £300, paint correction from £250, full details from £500. Transparent pricing, no hidden costs.',
+      'Car detailing prices in Manchester. Ceramic coating from £300, paint correction from £150, full detail packages from £500. Transparent pricing, no hidden costs. View all packages.',
     keywords: ['car detailing prices', 'ceramic coating cost', 'paint correction price', 'detailing prices manchester'],
     canonical: 'https://www.srvdetailing.co.uk/pricing/car-detailing',
   },
