@@ -81,10 +81,10 @@ export const metadata: Metadata = {
       "SRV Detailing — mobile car valeting and detailing across Manchester, Warrington, Macclesfield, Congleton and Wilmslow. Paint correction, ceramic coating. 22+ years experience. We come to you.",
     images: [
       {
-        url: "/mobile-van.webp",
-        width: 1200,
-        height: 630,
-        alt: "SRV Detailing mobile valeting van serving Manchester and Stockport",
+        url: "/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp",
+        width: 1448,
+        height: 1086,
+        alt: "SRV Detailing BMW M4 Competition — ceramic coating and paint correction in Manchester",
       },
     ],
   },
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
       "Professional Mobile Car Valeting & Detailing in Manchester | SRV Detailing",
     description:
       "Stockport-based mobile car valeting and detailing. Paint correction, ceramic coating. 22 years experience.",
-    images: ["/mobile-van.webp"],
+    images: ["/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"],
   },
   other: {
     "trustpilot-one-time-domain-verification-id": "1059fe69-a2ec-4c10-a7f4-f8c3a8166653",
@@ -118,7 +118,7 @@ const jsonLd = {
         "width": 512,
         "height": 512,
       },
-      "image": "https://www.srvdetailing.co.uk/mobile-van.webp",
+      "image": "https://www.srvdetailing.co.uk/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp",
       "telephone": "+44 7375 759686",
       "priceRange": "££",
       "description":

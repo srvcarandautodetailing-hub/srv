@@ -465,8 +465,8 @@ const AdminDashboard = () => {
       return (
         <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
           <Image
-            src="/images/gallery/mobile-van.webp.webp"
-            alt="SRV Detailing mobile van"
+            src="/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"
+            alt="SRV Detailing BMW M4 Competition ceramic coating"
             fill
             className="object-cover"
             priority

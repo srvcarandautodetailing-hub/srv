@@ -218,11 +218,6 @@ const galleryImages = [
     alt: 'SRV Detailing mobile team completing multi-stage exterior wash and paint protection in Manchester â€” fully equipped, no mains required',
     caption: 'Multi-Stage Mobile Detail Â· Manchester',
   },
-  {
-    src: '/images/gallery/mobile-van.webp.webp',
-    alt: 'SRV Detailing mobile valeting and detailing van â€” fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
-    caption: 'SRV Detailing Mobile Unit Â· Stockport Based',
-  },
 ];
 
 // â”€â”€â”€ Sub-gallery Navigation â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
@@ -382,13 +377,6 @@ const jsonLd = {
           contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/srv-detailing-interior-car-cleaning-manchester-01.webp.webp',
           name: 'SRV Detailing Mobile Interior Cleaning Stockport',
           description: 'SRV Detailing mobile interior car cleaning in Stockport â€” deep vacuum, leather conditioning, and full trim dressing at your home',
-          encodingFormat: 'image/webp',
-        },
-        {
-          '@type': 'ImageObject',
-          contentUrl: 'https://www.srvdetailing.co.uk/images/gallery/mobile-van.webp.webp',
-          name: 'SRV Detailing Mobile Valeting Van Stockport',
-          description: 'SRV Detailing mobile valeting and detailing van â€” fully equipped to bring professional car care to Stockport, Manchester, and Greater Manchester',
           encodingFormat: 'image/webp',
         },
       ],

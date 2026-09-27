@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     siteName: "SRV Detailing",
     images: [
       {
-        url: "/mobile-van.webp",
-        width: 1200,
-        height: 630,
+        url: "/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp",
+        width: 1448,
+        height: 1086,
         alt: "SRV Detailing professional mobile car valeting and detailing services Manchester",
       },
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Car Valeting & Detailing Services | SRV Detailing",
     description:
       "Professional car valeting and detailing services in Manchester. 22 years experience.",
-    images: ["/mobile-van.webp"],
+    images: ["/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"],
   },
 };
 

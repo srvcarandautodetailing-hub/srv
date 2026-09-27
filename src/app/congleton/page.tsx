@@ -60,13 +60,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_GB',
     siteName: 'SRV Detailing',
-    images: [{ url: '/mobile-van.webp', width: 1200, height: 630, alt: 'SRV Detailing mobile car care — Congleton CW12' }],
+    images: [{ url: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp', width: 1448, height: 1086, alt: 'SRV Detailing BMW M4 Competition — ceramic coating and paint correction in Manchester' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: congletonHub.seo.title,
     description: congletonHub.seo.description,
-    images: ['/mobile-van.webp'],
+    images: ['/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp'],
   },
 };
 

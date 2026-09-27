@@ -69,7 +69,7 @@ function buildBusinessNode(overrides: {
     url: BASE_URL,
     telephone: PHONE_INTERNATIONAL,
     priceRange: '££',
-    image: `${BASE_URL}/mobile-van.webp`,
+    image: `${BASE_URL}/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp`,
     logo: LOGO_IMAGE,
     ...(overrides.description ? { description: overrides.description } : {}),
     address: {
@@ -263,7 +263,7 @@ export function generatePageSchema(options: PageSchemaOptions): Record<string, u
       // Reference the canonical organization entity
       author: { '@id': `${BASE_URL}/#organization` },
       publisher: { '@id': `${BASE_URL}/#organization` },
-      image: `${BASE_URL}/mobile-van.webp`,
+      image: `${BASE_URL}/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp`,
     };
     if (options.article.updatedDate) articleNode.dateModified = options.article.updatedDate;
     if (options.article.articleSection) articleNode.articleSection = options.article.articleSection;
@@ -367,7 +367,7 @@ export function generateArticleSchema(options: {
     description: options.description,
     url: `${BASE_URL}${options.url}`,
     datePublished: options.publishedDate,
-    image: `${BASE_URL}/mobile-van.webp`,
+    image: `${BASE_URL}/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp`,
     author: {
       '@type': 'Organization',
       name: options.author || BUSINESS_NAME,
@@ -400,7 +400,7 @@ export function generateBlogPostingSchema(options: {
     description: options.description,
     url: `${BASE_URL}${options.url}`,
     datePublished: options.publishedDate,
-    image: `${BASE_URL}/mobile-van.webp`,
+    image: `${BASE_URL}/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp`,
     ...(options.articleSection ? { articleSection: options.articleSection } : {}),
     author: {
       '@type': 'Organization',

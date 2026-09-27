@@ -138,7 +138,7 @@ const valetingItems: GalleryItem[] = [
     id: 'valet-6',
     title: 'Fleet Valet — Multiple Vehicles',
     description: 'Regular fleet valeting package covering multiple company vehicles, scheduled around business hours.',
-    beforeImage: '/images/gallery/mobile-van.webp.webp',
+    beforeImage: '/images/gallery/srv-detailing-car-valeting-manchester-02.webp.webp',
     afterImage: '/images/gallery/srv-detailing-car-detailing-greater-manchester-stockport-02.webp.webp',
     service: 'Fleet Valeting',
     vehicle: 'Company Fleet',

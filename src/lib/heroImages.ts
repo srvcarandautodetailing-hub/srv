@@ -96,8 +96,8 @@ const IMG: Record<string, HeroImage> = {
     alt: 'SRV Detailing mobile car detailing service — ceramic coating, paint correction and valeting across Greater Manchester',
   },
   mobileVan: {
-    src: BASE + 'mobile-van.webp.webp',
-    alt: 'SRV Detailing fully equipped mobile van — professional car detailing and valeting across Greater Manchester and Cheshire',
+    src: BASE + 'srv-detailing-mobile-car-detailing-manchester-05.webp.webp',
+    alt: 'SRV Detailing professional mobile car detailing service — multi-stage exterior wash and paint protection across Greater Manchester and Cheshire',
   },
 };
 

@@ -37,8 +37,8 @@ export const wilmslowHub: LocationHubData = {
       alt: 'SRV Detailing ceramic coating showing exceptional water-beading — accredited mobile detailing service in Wilmslow and Cheshire East',
     },
     {
-      src: '/images/gallery/mobile-van.webp.webp',
-      alt: 'SRV Detailing fully equipped mobile car care van serving Wilmslow, Alderley Edge, Prestbury and all SK9 postcodes',
+      src: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+      alt: 'SRV Detailing BMW M4 Competition ceramic coating — professional mobile detailing service in Wilmslow, Alderley Edge, Prestbury and all SK9 postcodes',
     },
   ],
   introText:

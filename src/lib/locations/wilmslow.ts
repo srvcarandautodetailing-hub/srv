@@ -85,10 +85,10 @@ export function wilmslowMeta(options: WilmslowMetaOptions) {
       siteName: 'SRV Detailing',
       images: [
         {
-          url: '/mobile-van.webp',
-          width: 1200,
-          height: 630,
-          alt: `SRV Detailing mobile valeting — ${WILMSLOW_CONFIG.name}, ${WILMSLOW_CONFIG.postcode}`,
+          url: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+          width: 1448,
+          height: 1086,
+          alt: `SRV Detailing ceramic coating and paint correction — ${WILMSLOW_CONFIG.name}, ${WILMSLOW_CONFIG.postcode}`,
         },
       ],
     },
@@ -96,7 +96,7 @@ export function wilmslowMeta(options: WilmslowMetaOptions) {
       card: 'summary_large_image' as const,
       title,
       description,
-      images: ['/mobile-van.webp'],
+      images: ['/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp'],
     },
   };
 }

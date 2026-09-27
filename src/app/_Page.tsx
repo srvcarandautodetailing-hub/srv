@@ -1201,9 +1201,9 @@ const EnhancedServiceAreaSection = () => {
 
   return (
     <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden">
-      {/* Background — SRV mobile van: directly relevant to coverage/mobile service */}
+      {/* Background — SRV Detailing BMW M4 paint correction and ceramic coating */}
       <Image
-        src="/images/gallery/mobile-van.webp.webp"
+        src="/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"
         alt=""
         fill
         className="object-cover object-center"

@@ -37,8 +37,8 @@ export const congletonHub: LocationHubData = {
       alt: 'SRV Detailing ceramic coating showing exceptional water-beading — accredited mobile detailing in Congleton, Cheshire East',
     },
     {
-      src: '/images/gallery/mobile-van.webp.webp',
-      alt: 'SRV Detailing fully equipped mobile van serving Congleton, Sandbach, Holmes Chapel, and all CW12 postcodes',
+      src: '/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp',
+      alt: 'SRV Detailing BMW M4 Competition ceramic coating — professional mobile detailing service in Congleton, Sandbach, Holmes Chapel, and all CW12 postcodes',
     },
   ],
   introText:

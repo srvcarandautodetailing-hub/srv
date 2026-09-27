@@ -8,8 +8,8 @@ import Image from "next/image";
 // and active detailing (people see the process) — Stockport/Manchester ALT text for local SEO
 const heroImages = [
   {
-    src: "/images/gallery/mobile-van.webp.webp",
-    alt: "SRV Detailing fully equipped mobile van — professional car detailing and valeting delivered to homes and businesses across Manchester and Stockport",
+    src: "/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp",
+    alt: "SRV Detailing BMW M4 Competition ceramic coating — professional mobile car detailing and valeting delivered to homes and businesses across Manchester and Stockport",
   },
   {
     src: "/images/gallery/srv-detailing-ceramic-coating-stockport-01.webp.webp",

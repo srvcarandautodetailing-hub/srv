@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     siteName: "SRV Detailing",
     images: [
       {
-        url: "/mobile-van.webp",
-        width: 1200,
-        height: 630,
+        url: "/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp",
+        width: 1448,
+        height: 1086,
         alt: "SRV Detailing car care blog — expert guides and tips",
       },
     ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Car Detailing Blog | SRV Detailing Manchester",
     description:
       "Expert car detailing tips and guides from SRV Detailing.",
-    images: ["/mobile-van.webp"],
+    images: ["/images/gallery/srv-detailing-bmw-m4-competition-front-ceramic-coating-manchester.webp"],
   },
 };
 

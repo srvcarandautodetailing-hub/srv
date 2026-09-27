@@ -10,8 +10,8 @@ import { Button } from "@/components/ui/button";
 // WA postcodes: motorway-grime market; mobile service emphasis is the key visual story
 const heroImages = [
   {
-    src: "/images/gallery/mobile-van.webp.webp",
-    alt: "SRV Detailing fully equipped mobile van serving Warrington — professional car detailing and valeting across WA postcodes and Cheshire",
+    src: "/images/gallery/srv-detailing-mobile-car-detailing-manchester-05.webp.webp",
+    alt: "SRV Detailing professional mobile car detailing service in Warrington — expert paint correction and valeting delivered across WA postcodes and Cheshire",
   },
   {
     src: "/images/gallery/srv-detailing-mobile-car-detailing-manchester-04.webp.webp",
