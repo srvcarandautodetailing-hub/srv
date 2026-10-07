@@ -45,7 +45,7 @@ export const stockportAreas: AreaPageData[] = [
     faqs: [
       {
         question: 'How close are you to Bramhall?',
-        answer: 'We are based in Dukinfield, approximately 15 minutes from Bramhall. As a local Stockport business, Bramhall is one of the closest areas we serve.',
+        answer: 'We are based in Stockport, approximately 15 minutes from Bramhall. As a local Stockport business, Bramhall is one of the closest areas we serve.',
       },
     ],
     relatedLinks: [
@@ -335,7 +335,7 @@ export const stockportAreas: AreaPageData[] = [
       {
         type: 'text',
         heading: 'Mobile Car Care in Poynton',
-        body: "Poynton sits on the southern edge of Stockport with its own village feel, Poynton Pool & Park for weekend walks, and roads that take a real toll on paintwork through winter. The A523 gets heavily salted between October and March, and tree sap from the Lyme Park surroundings is one of the nastiest things for clear coat. We cover all of SK12 from our Dukinfield base — around 20 minutes from Poynton — 7 days a week.",
+        body: "Poynton sits on the southern edge of Stockport with its own village feel, Poynton Pool & Park for weekend walks, and roads that take a real toll on paintwork through winter. The A523 gets heavily salted between October and March, and tree sap from the Lyme Park surroundings is one of the nastiest things for clear coat. We cover all of SK12 from our Stockport base — around 20 minutes from Poynton — 7 days a week.",
       },
     ],
     faqs: [

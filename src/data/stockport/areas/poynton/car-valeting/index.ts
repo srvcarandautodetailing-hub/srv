@@ -129,7 +129,7 @@ export const poyntonCarValetingPillar: PillarPageData = {
       type: 'list',
       heading: 'Why SRV Detailing for Car Valeting in Poynton',
       items: [
-        'Genuinely local — based in Dukinfield, 20 minutes from Poynton, we know SK12 and its roads',
+        'Genuinely local — based in Stockport, 20 minutes from Poynton, we know SK12 and its roads',
         '22+ years professional car care experience — not a franchise operation, a genuine specialist',
         'Fully self-contained mobile unit — no need for water, power, or any facilities at your property',
         'Professional products only — pH-neutral shampoos, iron fallout removers, quality wax and sealant',

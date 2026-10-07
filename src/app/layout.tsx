@@ -125,16 +125,16 @@ const jsonLd = {
         "SRV Detailing is Greater Manchester's trusted mobile car valeting and detailing specialist with over 22 years of experience. We travel to your home or workplace across Manchester, Stockport, Tameside, Warrington, Macclesfield, Congleton, Wilmslow, and surrounding Cheshire areas. Services include paint correction, ceramic coating, full interior and exterior detailing, upholstery cleaning, odour removal and pet hair removal.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Globe House, Globe Lane",
-        "addressLocality": "Dukinfield",
+        "streetAddress": "59A Buxton Road",
+        "addressLocality": "Stockport",
         "addressRegion": "Greater Manchester",
-        "postalCode": "SK16 4RG",
+        "postalCode": "SK12 2DZ",
         "addressCountry": "GB",
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "53.4746",
-        "longitude": "-2.0873",
+        "latitude": "53.36028",
+        "longitude": "-2.03439",
       },
       "openingHoursSpecification": [
         {

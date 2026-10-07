@@ -557,7 +557,7 @@ export const manchesterAreas: AreaPageData[] = [
     seo: {
       title: 'Car Detailing & Valeting Tameside | Mobile Service | SRV Detailing',
       description:
-        'Mobile car detailing and valeting in Tameside. Ashton-under-Lyne, Stalybridge, Hyde, Denton, Dukinfield. OL5–OL7, SK14–SK16.',
+        'Mobile car detailing and valeting in Tameside. Ashton-under-Lyne, Stalybridge, Hyde, Denton, Stockport. OL5–OL7, SK14–SK16.',
       keywords: ['car detailing tameside', 'car valeting ashton-under-lyne', 'mobile valeting hyde', 'car detailing stalybridge'],
       canonical: 'https://www.srvdetailing.co.uk/manchester/areas/tameside',
     },
@@ -569,7 +569,7 @@ export const manchesterAreas: AreaPageData[] = [
     ],
     heroTitle: 'Car Detailing & Valeting in Tameside',
     heroDescription:
-      'Professional mobile car care across Tameside — Ashton-under-Lyne, Stalybridge, Hyde, Denton and Dukinfield. We are based locally and know the area well.',
+      'Professional mobile car care across Tameside — Ashton-under-Lyne, Stalybridge, Hyde, Denton and Droylsden. We are based nearby in Stockport and know the area well.',
     postcodeAreas: ['OL5', 'OL6', 'OL7', 'SK14', 'SK15', 'SK16'],
     coordinates: { latitude: '53.4833', longitude: '-2.0833' },
     mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75981.5630354119!2d-2.148925866418201!3d53.4787563250574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb61836fca3bf%3A0x40cf99eed6d33d0!2sBorough%20of%20Tameside%2C%20UK!5e0!3m2!1sen!2s!4v1771784095449!5m2!1sen!2s',
@@ -577,13 +577,13 @@ export const manchesterAreas: AreaPageData[] = [
       {
         type: 'text',
         heading: 'Mobile Car Care in Tameside',
-        body: 'Tameside is our home turf — SRV Detailing is based in Dukinfield, right in the heart of the borough. That means faster response times, lower travel costs, and deep local knowledge. Whether you are in Ashton-under-Lyne, Stalybridge, Hyde, Denton, Mossley or Droylsden, we are just minutes away.',
+        body: 'Tameside has been our home turf for over two decades — SRV Detailing is now based in Stockport, keeping us close to the borough. That means fast response times, no call-out charges, and deep local knowledge. Whether you are in Ashton-under-Lyne, Stalybridge, Hyde, Denton, Mossley or Droylsden, our mobile unit comes to you.',
       },
       {
         type: 'list',
         heading: 'Why Tameside Loves SRV Detailing',
         items: [
-          'Based in Dukinfield — your local detailer with 22+ years experience',
+          'Based in Stockport — your local detailer with 22+ years experience',
           'Fastest response times in our service area',
           'Deep knowledge of Tameside\'s specific environmental challenges',
           'Regular customers across Ashton, Stalybridge, Hyde and Denton',
@@ -594,7 +594,7 @@ export const manchesterAreas: AreaPageData[] = [
     faqs: [
       {
         question: 'Are you based in Tameside?',
-        answer: 'Yes! We are based in Dukinfield, Tameside. It is our home borough and we know every street. Tameside customers benefit from the shortest travel times in our entire service area.',
+        answer: 'We are now based in Stockport, but we have served Tameside since 2003 and know every street. Our mobile unit covers the whole borough with fast response times and no call-out charges.',
       },
     ],
     relatedLinks: [

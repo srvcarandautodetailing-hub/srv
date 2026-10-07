@@ -122,7 +122,7 @@ export const fullValetStockport: ServicePageData = {
       type: 'text',
       heading: 'Full Valet Service Across All Stockport Postcodes',
       bodyParagraphs: [
-        'SRV Detailing delivers full valets across the complete SK postcode area including Stockport town centre (SK1–SK3), Edgeley (SK3), Heaton Moor (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle, Cheadle Hulme, and Gatley (SK8), and SK10–SK12. We are based in Dukinfield, meaning we are genuinely local to all of Stockport and can typically arrive within 20 to 30 minutes of the booked time.',
+        'SRV Detailing delivers full valets across the complete SK postcode area including Stockport town centre (SK1–SK3), Edgeley (SK3), Heaton Moor (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle, Cheadle Hulme, and Gatley (SK8), and SK10–SK12. We are based in Stockport, meaning we are genuinely local to all of Stockport and can typically arrive within 20 to 30 minutes of the booked time.',
         'Our mobile unit is fully self-contained — we bring our own water, power, and all equipment. Customers with driveways, workplace car parks, or any accessible parking space can book a full valet without needing any facilities at their location.',
       ],
     },
@@ -158,7 +158,7 @@ export const fullValetStockport: ServicePageData = {
     },
     {
       question: 'Do you cover Cheadle Hulme, Bramhall, Marple, and Hazel Grove for full valets?',
-      answer: 'Yes. We cover all SK postcodes including Cheadle Hulme (SK8), Bramhall and Hazel Grove (SK7), Marple (SK6), Heaton Moor (SK4), Reddish (SK5), and Stockport town centre (SK1). We are based in Dukinfield and cover the entire Stockport Borough without a travel surcharge.',
+      answer: 'Yes. We cover all SK postcodes including Cheadle Hulme (SK8), Bramhall and Hazel Grove (SK7), Marple (SK6), Heaton Moor (SK4), Reddish (SK5), and Stockport town centre (SK1). We are based in Stockport and cover the entire Stockport Borough without a travel surcharge.',
     },
   ],
   relatedLinks: [

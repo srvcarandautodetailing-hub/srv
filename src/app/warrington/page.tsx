@@ -88,10 +88,10 @@ const jsonLd = {
         "Professional mobile car detailing and valeting across Warrington and the surrounding Cheshire area. Ceramic coating, paint correction, full valets, interior cleaning and more. Over 22 years of experience.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Globe House, Globe Lane",
-        "addressLocality": "Dukinfield",
+        "streetAddress": "59A Buxton Road",
+        "addressLocality": "Stockport",
         "addressRegion": "Greater Manchester",
-        "postalCode": "SK16 4RG",
+        "postalCode": "SK12 2DZ",
         "addressCountry": "GB",
       },
       "geo": {

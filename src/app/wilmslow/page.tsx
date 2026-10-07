@@ -19,9 +19,9 @@ const wilmslowPageSchema = {
   telephone: '+44-7375-759686',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Globe House, Globe Lane',
-    addressLocality: 'Dukinfield',
-    postalCode: 'SK16 4RG',
+    streetAddress: '59A Buxton Road',
+    addressLocality: 'Stockport',
+    postalCode: 'SK12 2DZ',
     addressCountry: 'GB',
   },
   areaServed: [

@@ -119,7 +119,7 @@ export const interiorValetingStockport: ServicePageData = {
     {
       type: 'text',
       heading: 'Interior Valeting Across All Stockport Postcodes',
-      body: 'SRV Detailing covers all SK postcodes for interior car valeting from our Dukinfield base. Whether you are in Stockport town centre (SK1), Cheadle Hulme (SK8), Bramhall or Hazel Grove (SK7), Marple (SK6), or Heaton Moor (SK4), we come to you with everything needed to complete the service. Interior valeting can be carried out in any weather — we work inside the vehicle regardless of rain.',
+      body: 'SRV Detailing covers all SK postcodes for interior car valeting from our Stockport base. Whether you are in Stockport town centre (SK1), Cheadle Hulme (SK8), Bramhall or Hazel Grove (SK7), Marple (SK6), or Heaton Moor (SK4), we come to you with everything needed to complete the service. Interior valeting can be carried out in any weather — we work inside the vehicle regardless of rain.',
     },
   ],
   faqs: [

@@ -83,7 +83,7 @@ export const ceramicCoatingStockport: ServicePageData = {
       type: 'list',
       heading: 'Why Choose SRV Detailing for Ceramic Coating in Stockport',
       items: [
-        'Locally based in Dukinfield — no travel surcharges, faster response, and genuine knowledge of local road conditions',
+        'Locally based in Stockport — no travel surcharges, faster response, and genuine knowledge of local road conditions',
         '22+ years hands-on paint and detailing experience — coating applied correctly, not rushed',
         'Paint correction always included — we do not coat over defects',
         'Professional panel lighting used during application — ensures uniform coverage',

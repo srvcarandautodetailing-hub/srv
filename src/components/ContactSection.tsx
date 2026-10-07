@@ -143,7 +143,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Base Location</p>
-                  <p className="font-medium">Dukinfield, Greater Manchester</p>
+                  <p className="font-medium">Stockport, Greater Manchester</p>
                 </div>
               </div>
             </div>

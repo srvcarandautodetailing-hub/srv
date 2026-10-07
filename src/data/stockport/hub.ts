@@ -42,7 +42,7 @@ export const stockportHub: LocationHubData = {
     },
   ],
   introText:
-    "Greater Manchester's road salt, persistent rainfall, and urban traffic film create demanding conditions for vehicle paintwork and interiors year-round. SRV Detailing is based in Dukinfield — at the heart of the Stockport and Tameside area — covering every SK postcode including Bramhall, Cheadle, Cheadle Hulme, Marple, Hazel Grove, Heaton Moor, Edgeley, Reddish, and the town centre. Our mobile unit carries professional-grade equipment for all services: machine polishers, ceramic coating products, steam cleaners, and hot water extraction systems — brought directly to your home or workplace, fully self-contained.",
+    "Greater Manchester's road salt, persistent rainfall, and urban traffic film create demanding conditions for vehicle paintwork and interiors year-round. SRV Detailing is based in Stockport — at the heart of the Stockport and Tameside area — covering every SK postcode including Bramhall, Cheadle, Cheadle Hulme, Marple, Hazel Grove, Heaton Moor, Edgeley, Reddish, and the town centre. Our mobile unit carries professional-grade equipment for all services: machine polishers, ceramic coating products, steam cleaners, and hot water extraction systems — brought directly to your home or workplace, fully self-contained.",
   pillars: [
     {
       name: 'Car Detailing',
@@ -77,7 +77,7 @@ export const stockportHub: LocationHubData = {
       type: 'text',
       heading: 'Your Local Stockport Car Care Specialist',
       bodyParagraphs: [
-        "SRV Detailing is based at Globe House, Globe Lane, Dukinfield, SK16 4RG — genuinely local to all of Stockport and Tameside. Being locally based means we understand the specific conditions Stockport vehicles face: road salt from the winter gritting programme on the A6, A34, A560, and M60 corridor; iron fallout from the motorway and rail crossings in the area; tree sap from the residential canopies of Bramhall and Marple; and the persistent rainfall that keeps contamination active on paintwork throughout the year.",
+        "SRV Detailing is based at 59A Buxton Road, Stockport, SK12 2DZ — genuinely local to all of Stockport and Tameside. Being locally based means we understand the specific conditions Stockport vehicles face: road salt from the winter gritting programme on the A6, A34, A560, and M60 corridor; iron fallout from the motorway and rail crossings in the area; tree sap from the residential canopies of Bramhall and Marple; and the persistent rainfall that keeps contamination active on paintwork throughout the year.",
         "Our mobile unit is fully self-contained — we carry our own water supply, power generator, professional equipment, and all chemicals. You need to provide nothing except access to your vehicle. Every SK postcode is covered without a call-out charge.",
       ],
     },
@@ -85,7 +85,7 @@ export const stockportHub: LocationHubData = {
       type: 'list',
       heading: 'Why Choose SRV Detailing in Stockport',
       items: [
-        'Locally based in Dukinfield — minimal travel time, flexible scheduling, and no call-out charges for SK postcodes',
+        'Locally based in Stockport — minimal travel time, flexible scheduling, and no call-out charges for SK postcodes',
         '22+ years professional experience across all vehicle types, paint systems, and interior materials',
         'Fully self-contained mobile unit — own water supply, generator, and all professional equipment',
         'Safe hand-wash techniques and paint depth gauges — no rushed work, no shortcuts',
@@ -110,7 +110,7 @@ export const stockportHub: LocationHubData = {
     {
       question: 'Where are you based in Stockport?',
       answer:
-        "We're based at Globe House, Globe Lane, Dukinfield, SK16 4RG — centrally located between Stockport and Tameside. We're a mobile service, so we come to you, but being Stockport-based means we're always close by and can often accommodate same-day or next-day bookings.",
+        "We're based at 59A Buxton Road, Stockport, SK12 2DZ — in the south of the Stockport area. We're a mobile service, so we come to you, but being Stockport-based means we're always close by and can often accommodate same-day or next-day bookings.",
     },
     {
       question: 'Which Stockport areas do you cover?',

@@ -136,7 +136,7 @@ export const poyntonCarDetailingPillar: PillarPageData = {
       type: 'list',
       heading: 'Why Choose SRV Detailing for Car Detailing in Poynton',
       items: [
-        'Locally based in Dukinfield — genuine local knowledge of SK12 roads, conditions, and the specific contamination challenges of this area',
+        'Locally based in Stockport — genuine local knowledge of SK12 roads, conditions, and the specific contamination challenges of this area',
         '22+ years hands-on experience across all vehicle types, paint systems, and coating products',
         'Paint depth gauges used on every correction job — safe, measured polishing within clear coat margins',
         'Professional panel inspection lighting — no defect hidden or missed during polishing or coating application',

@@ -66,7 +66,7 @@ export const headlightRestorationStockport: ServicePageData = {
     {
       type: 'text',
       heading: 'Mobile Service Across All SK Postcodes',
-      body: "Our headlight restoration service is fully mobile — all equipment carried to your Stockport driveway, workplace, or any accessible location. No need to book into a garage or wait for a scheduled service slot. We cover all SK postcodes from our Dukinfield base including Bramhall, Cheadle, Hazel Grove, Marple, Heaton Moor, Reddish, and Stockport town centre. The service typically takes 1–2 hours per pair and can be combined with any other valeting or detailing service on the same visit.",
+      body: "Our headlight restoration service is fully mobile — all equipment carried to your Stockport driveway, workplace, or any accessible location. No need to book into a garage or wait for a scheduled service slot. We cover all SK postcodes from our Stockport base including Bramhall, Cheadle, Hazel Grove, Marple, Heaton Moor, Reddish, and Stockport town centre. The service typically takes 1–2 hours per pair and can be combined with any other valeting or detailing service on the same visit.",
     },
   ],
   faqs: [

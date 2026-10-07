@@ -132,7 +132,7 @@ export const exteriorValetingStockport: ServicePageData = {
       type: 'text',
       heading: 'Exterior Valeting Across All SK Postcodes',
       bodyParagraphs: [
-        'SRV Detailing covers every SK postcode for exterior car valeting, operating from our Dukinfield base. This includes Stockport town centre (SK1–SK3), Heaton Moor and Heaton Norris (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle and Cheadle Hulme (SK8), and extending into SK10–SK12. We are also available across south Manchester, Tameside, and Trafford without a travel surcharge for customers within standard range.',
+        'SRV Detailing covers every SK postcode for exterior car valeting, operating from our Stockport base. This includes Stockport town centre (SK1–SK3), Heaton Moor and Heaton Norris (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle and Cheadle Hulme (SK8), and extending into SK10–SK12. We are also available across south Manchester, Tameside, and Trafford without a travel surcharge for customers within standard range.',
         'We carry our own water supply and power generator — no hosepipe or electricity connection is needed from you. All we need is access to your vehicle and a space to park alongside it. Exterior valeting is available 7 days a week, with early morning slots available to fit around commuter schedules across the Stockport area.',
       ],
     },
@@ -168,7 +168,7 @@ export const exteriorValetingStockport: ServicePageData = {
     },
     {
       question: 'Do you cover Cheadle Hulme, Bramhall, and Hazel Grove for exterior valeting?',
-      answer: 'Yes. We cover all SK postcodes including Cheadle Hulme (SK8), Bramhall (SK7), Hazel Grove (SK7), Marple (SK6), Heaton Moor (SK4), and Reddish (SK5). We are based in Dukinfield, making us genuinely local to all Stockport areas.',
+      answer: 'Yes. We cover all SK postcodes including Cheadle Hulme (SK8), Bramhall (SK7), Hazel Grove (SK7), Marple (SK6), Heaton Moor (SK4), and Reddish (SK5). We are based in Stockport, making us genuinely local to all Stockport areas.',
     },
   ],
   relatedLinks: [

@@ -26,7 +26,7 @@ export const carWashStockport: ServicePageData = {
   ],
   heroTitle: 'Mobile Car Wash in Stockport',
   heroDescription:
-    'Based in Dukinfield, we are just minutes from every Stockport postcode. Our mobile hand car wash comes to your driveway or workplace — fully self-contained, no water or electricity needed from you.',
+    'Based in Stockport, we are just minutes from every Stockport postcode. Our mobile hand car wash comes to your driveway or workplace — fully self-contained, no water or electricity needed from you.',
   contentSections: [
     {
       type: 'text',
@@ -49,7 +49,7 @@ export const carWashStockport: ServicePageData = {
     {
       type: 'text',
       heading: 'Stockport Coverage — All SK Postcodes',
-      body: 'We cover every SK postcode from our Dukinfield base, typically arriving within 20–30 minutes. This includes SK1–SK3 (Stockport town centre, Edgeley), SK4 (Heaton Moor, Heaton Mersey, Heaton Chapel), SK5 (Reddish), SK6 (Marple, Bredbury, Romiley, Woodley), SK7 (Bramhall, Hazel Grove, Stepping Hill), SK8 (Cheadle, Cheadle Hulme, Heald Green, Gatley), and SK12 (Poynton). No travel surcharge applies within standard SK postcode coverage.',
+      body: 'We cover every SK postcode from our Stockport base, typically arriving within 20–30 minutes. This includes SK1–SK3 (Stockport town centre, Edgeley), SK4 (Heaton Moor, Heaton Mersey, Heaton Chapel), SK5 (Reddish), SK6 (Marple, Bredbury, Romiley, Woodley), SK7 (Bramhall, Hazel Grove, Stepping Hill), SK8 (Cheadle, Cheadle Hulme, Heald Green, Gatley), and SK12 (Poynton). No travel surcharge applies within standard SK postcode coverage.',
     },
     {
       type: 'process',
@@ -80,7 +80,7 @@ export const carWashStockport: ServicePageData = {
     },
     {
       question: 'Which Stockport areas do you cover?',
-      answer: 'We cover all SK postcodes including Bramhall, Cheadle, Cheadle Hulme, Hazel Grove, Marple, Heaton Moor, Edgeley, Reddish, Bredbury, Romiley, Woodley, Heald Green, Gatley, Poynton, and Stockport town centre. We are based in Dukinfield (SK16) so can reach most Stockport addresses within 20–30 minutes.',
+      answer: 'We cover all SK postcodes including Bramhall, Cheadle, Cheadle Hulme, Hazel Grove, Marple, Heaton Moor, Edgeley, Reddish, Bredbury, Romiley, Woodley, Heald Green, Gatley, Poynton, and Stockport town centre. We are based in Stockport (SK16) so can reach most Stockport addresses within 20–30 minutes.',
     },
     {
       question: 'How long does a mobile car wash take?',

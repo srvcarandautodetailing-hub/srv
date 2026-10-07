@@ -209,7 +209,7 @@ export const mobileValetingStockport: ServicePageData = {
       type: 'text',
       heading: 'Mobile Valeting Across All Stockport Postcodes',
       bodyParagraphs: [
-        'SRV Detailing is based in Dukinfield — putting us at the heart of the Stockport and Tameside area and within easy reach of the entire SK postcode network. We cover SK1 (Stockport town centre), SK2 (Heaviley and Offerton), SK3 (Edgeley), SK4 (Heaton Moor and Heaton Norris), SK5 (Reddish and Bredbury), SK6 (Marple and Romiley), SK7 (Bramhall and Cheadle Hulme), SK8 (Cheadle and Gatley), and SK10–SK12 covering Hazel Grove and surrounding areas. We also regularly serve south Manchester, Didsbury, Chorlton, and Tameside.',
+        'SRV Detailing is based in Stockport — putting us at the heart of the Stockport and Tameside area and within easy reach of the entire SK postcode network. We cover SK1 (Stockport town centre), SK2 (Heaviley and Offerton), SK3 (Edgeley), SK4 (Heaton Moor and Heaton Norris), SK5 (Reddish and Bredbury), SK6 (Marple and Romiley), SK7 (Bramhall and Cheadle Hulme), SK8 (Cheadle and Gatley), and SK10–SK12 covering Hazel Grove and surrounding areas. We also regularly serve south Manchester, Didsbury, Chorlton, and Tameside.',
         'Being genuinely local means we understand local road conditions, typical contamination patterns, and seasonal challenges — from the heavy road salting on the A6 corridor in winter to the tree sap and pollen issues in the leafy residential areas of Bramhall and Marple during spring. We are not a national franchise operating out of an unfamiliar area: SRV Detailing is locally owned, locally based, and committed to the Stockport area long-term.',
       ],
     },
@@ -256,7 +256,7 @@ export const mobileValetingStockport: ServicePageData = {
     {
       question: 'Do you cover Cheadle Hulme, Bramhall, Hazel Grove, and other Stockport areas?',
       answer:
-        'Yes. We cover the full SK postcode area including Cheadle Hulme (SK8), Bramhall (SK7), Hazel Grove (SK7), Heaton Moor (SK4), Heaton Norris (SK4), Reddish (SK5), Marple (SK6), Edgeley (SK3), and Stockport town centre (SK1). We are based in Dukinfield, making us genuinely local to the entire Stockport Borough. Visit our Stockport areas page for full coverage and postcode details.',
+        'Yes. We cover the full SK postcode area including Cheadle Hulme (SK8), Bramhall (SK7), Hazel Grove (SK7), Heaton Moor (SK4), Heaton Norris (SK4), Reddish (SK5), Marple (SK6), Edgeley (SK3), and Stockport town centre (SK1). We are based in Stockport, making us genuinely local to the entire Stockport Borough. Visit our Stockport areas page for full coverage and postcode details.',
     },
     {
       question: 'What does a full interior valet include?',

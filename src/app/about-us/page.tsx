@@ -61,15 +61,16 @@ const aboutPageJsonLd = {
       "foundingDate": "2003",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office Tech Solutions",
-        "addressLocality": "Dukinfield",
+        "streetAddress": "59A Buxton Road",
+        "addressLocality": "Stockport",
         "addressRegion": "Greater Manchester",
+        "postalCode": "SK12 2DZ",
         "addressCountry": "GB"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "53.4724",
-        "longitude": "-2.0861"
+        "latitude": "53.36028",
+        "longitude": "-2.03439"
       },
       "areaServed": [
         {
@@ -147,7 +148,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  SRV Detailing was founded in 2003 by a car enthusiast who believed every vehicle deserves professional care. What started as a single-person operation in Dukinfield has grown into Greater Manchester's trusted name for mobile car valeting and specialist ceramic coating services.
+                  SRV Detailing was founded in 2003 by a car enthusiast who believed every vehicle deserves professional care. What started as a single-person operation in Stockport has grown into Greater Manchester's trusted name for mobile car valeting and specialist ceramic coating services.
                 </p>
                 <p>
                   Over 22 years, we've detailed thousands of vehiclesâ€”from daily drivers to prestige motorsâ€”learning that true quality comes from understanding both the science of automotive finishes and the pride owners feel in their cars.
@@ -388,7 +389,7 @@ export default function About() {
             Proudly Serving <span className="text-primary">Manchester & Stockport</span>
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            As a local business based in Dukinfield, we understand the needs of Greater Manchester drivers. From urban commuters to countryside enthusiasts, we're part of your community.
+            As a local business based in Stockport, we understand the needs of Greater Manchester drivers. From urban commuters to countryside enthusiasts, we're part of your community.
           </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -405,7 +406,7 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Mobile Service Coverage</h3>
                   <p className="text-gray-600">
-                    We bring our fully equipped mobile unit to your home, office, or preferred location across Manchester, Stockport, Tameside, and surrounding areasâ€”within a 25-mile radius of our Dukinfield base.
+                    We bring our fully equipped mobile unit to your home, office, or preferred location across Manchester, Stockport, Tameside, and surrounding areasâ€”within a 25-mile radius of our Stockport base.
                   </p>
                 </div>
               </div>
@@ -445,7 +446,7 @@ export default function About() {
               </div>
               <div className="p-4">
                 <MapPin className="w-6 h-6 text-primary mx-auto mb-2" />
-                <p className="font-semibold">Dukinfield & Tameside</p>
+                <p className="font-semibold">South Stockport</p>
               </div>
               <div className="p-4">
                 <MapPin className="w-6 h-6 text-primary mx-auto mb-2" />

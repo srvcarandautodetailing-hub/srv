@@ -127,7 +127,7 @@ export const stockportCarDetailingPillar: PillarPageData = {
       type: 'list',
       heading: 'Why Choose SRV Detailing in Stockport',
       items: [
-        'Locally based in Dukinfield — genuinely local knowledge of SK postcode roads and conditions',
+        'Locally based in Stockport — genuinely local knowledge of SK postcode roads and conditions',
         '22+ years hands-on experience across all vehicle types, paint systems, and materials',
         'Paint depth gauges used on every correction job — safe, measured correction within clear coat margins',
         'Professional panel inspection lighting — no defect missed during correction or coating',
@@ -146,7 +146,7 @@ export const stockportCarDetailingPillar: PillarPageData = {
     {
       question: 'Do you come to my home in Stockport?',
       answer:
-        "Yes. We cover all SK postcodes from our Dukinfield base — Bramhall, Cheadle, Cheadle Hulme, Hazel Grove, Marple, Heaton Moor, Reddish and the town centre. Our unit is fully self-contained — no water or power needed from your property.",
+        "Yes. We cover all SK postcodes from our Stockport base — Bramhall, Cheadle, Cheadle Hulme, Hazel Grove, Marple, Heaton Moor, Reddish and the town centre. Our unit is fully self-contained — no water or power needed from your property.",
     },
     {
       question: 'How much does car detailing cost in Stockport?',

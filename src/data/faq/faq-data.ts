@@ -601,7 +601,7 @@ export const faqTopicsData: FaqTopicData[] = [
     heroTitle: 'Pricing FAQ',
     heroDescription: 'Transparent answers to common pricing questions. No hidden costs, no surprises.',
     faqs: [
-      { question: 'Do you charge call-out fees for mobile services?', answer: 'No. We are locally based in Dukinfield and cover all of Manchester and Stockport without call-out fees. Our prices are the same whether we come to you or you come to us.' },
+      { question: 'Do you charge call-out fees for mobile services?', answer: 'No. We are locally based in Stockport and cover all of Manchester and Stockport without call-out fees. Our prices are the same whether we come to you or you come to us.' },
       { question: 'Why do prices vary by vehicle size?', answer: 'Larger vehicles require more product, more time, and more effort to complete to the same standard. An SUV takes roughly 30–50% longer than a small hatchback. Our pricing reflects this honestly rather than quoting one price and adding extras.' },
       { question: 'Are there any hidden costs?', answer: 'No. We provide a clear quote before starting any work. If we discover something during the process that would add cost (e.g. heavy contamination requiring extra correction), we\'ll discuss it with you before proceeding.' },
       { question: 'Do you offer package deals or discounts?', answer: 'Yes. We offer multi-service packages and maintenance plans that provide better value than individual bookings. Regular customers also benefit from loyalty pricing. Contact us for a personalised quote.' },
@@ -638,7 +638,7 @@ export const faqTopicsData: FaqTopicData[] = [
       { question: 'Can I cancel or reschedule?', answer: 'Yes. We ask for at least 24 hours\' notice for cancellations or reschedules. This allows us to offer the slot to another customer. Same-day cancellations may incur a small fee for large bookings.' },
       { question: 'What happens on the day?', answer: 'We\'ll arrive at the agreed time and location. We\'ll inspect the vehicle with you, confirm the work to be done, and agree on any additional items. You\'re free to leave us to work — we don\'t need you to be present the entire time.' },
       { question: 'Do you work weekends?', answer: 'Yes — we are available 24/7, including weekends and bank holidays. Weekend and evening slots are popular, so we recommend booking ahead to secure your preferred time.' },
-      { question: 'What areas do you cover?', answer: 'We cover all of Greater Manchester and Stockport, including all M and SK postcodes. We are based in Dukinfield, giving us quick access to Manchester city centre, Stockport, Trafford, Sale, Altrincham and surrounding areas.' },
+      { question: 'What areas do you cover?', answer: 'We cover all of Greater Manchester and Stockport, including all M and SK postcodes. We are based in Stockport, giving us quick access to Manchester city centre, Trafford, Sale, Altrincham and surrounding areas.' },
     ],
     relatedLinks: [
       { label: 'Book Now', href: '/booking', description: 'Book your service' },

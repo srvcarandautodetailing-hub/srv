@@ -257,16 +257,16 @@ const jsonLd = {
       priceRange: 'Â£Â£',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Globe House, Globe Lane',
-        addressLocality: 'Dukinfield',
+        streetAddress: '59A Buxton Road',
+        addressLocality: 'Stockport',
         addressRegion: 'Greater Manchester',
-        postalCode: 'SK16 4RG',
+        postalCode: 'SK12 2DZ',
         addressCountry: 'GB',
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: '53.4746',
-        longitude: '-2.0873',
+        latitude: '53.36028',
+        longitude: '-2.03439',
       },
       areaServed: [
         { '@type': 'City', name: 'Stockport' },
@@ -443,7 +443,7 @@ export default function GalleryPage() {
         {/* â”€â”€ SEO Content â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="max-w-4xl mx-auto px-4 pt-14 pb-8">
           <p className="text-gray-700 text-lg leading-relaxed mb-5">
-            Welcome to the SRV Detailing gallery â€” a showcase of professional mobile car detailing, ceramic coating, paint correction, and valeting results across Stockport, Manchester, and the wider Greater Manchester area. Based in Dukinfield with a 25-mile mobile service radius, every result you see here was achieved at the customer's own home or workplace using our fully self-contained mobile unit, which carries its own water, power, and professional-grade equipment.
+            Welcome to the SRV Detailing gallery â€” a showcase of professional mobile car detailing, ceramic coating, paint correction, and valeting results across Stockport, Manchester, and the wider Greater Manchester area. Based in Stockport with a 25-mile mobile service radius, every result you see here was achieved at the customer's own home or workplace using our fully self-contained mobile unit, which carries its own water, power, and professional-grade equipment.
           </p>
           <p className="text-gray-600 leading-relaxed mb-5">
             Our Stockport and Manchester customers choose SRV Detailing because we bring the workshop to them. Whether it's a ceramic coating on a prestige vehicle in Stockport, a multi-stage paint correction in Manchester city centre, or a full interior deep clean in Salford â€” our mobile setup delivers the same showroom-quality results as a fixed-location detailer, without the inconvenience of travel. With over 22 years of experience and accredited ceramic coating certification, our work is trusted by car enthusiasts, fleet managers, and everyday drivers alike.

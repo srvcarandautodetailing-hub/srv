@@ -107,7 +107,7 @@ export const miniValetStockport: ServicePageData = {
     {
       type: 'text',
       heading: 'Mini Valet Service Across All Stockport Postcodes',
-      body: 'SRV Detailing delivers mini valets across the full SK postcode area from our Dukinfield base. We cover Stockport town centre (SK1–SK3), Heaton Moor (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle and Cheadle Hulme (SK8), and across SK10 to SK12. Our mobile unit is fully self-contained — no hosepipe or electricity needed from your property. Available 7 days a week with early morning slots for commuters.',
+      body: 'SRV Detailing delivers mini valets across the full SK postcode area from our Stockport base. We cover Stockport town centre (SK1–SK3), Heaton Moor (SK4), Reddish (SK5), Marple and Romiley (SK6), Bramhall and Hazel Grove (SK7), Cheadle and Cheadle Hulme (SK8), and across SK10 to SK12. Our mobile unit is fully self-contained — no hosepipe or electricity needed from your property. Available 7 days a week with early morning slots for commuters.',
     },
   ],
   faqs: [

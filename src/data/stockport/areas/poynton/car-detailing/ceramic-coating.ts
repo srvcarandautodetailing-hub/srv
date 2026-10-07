@@ -102,7 +102,7 @@ export const ceramicCoatingPoynton: ServicePageData = {
       type: 'list',
       heading: 'Why Choose SRV Detailing for Ceramic Coating in Poynton',
       items: [
-        'Locally based in Dukinfield — no travel surcharges, fastest response times across SK12',
+        'Locally based in Stockport — no travel surcharges, fastest response times across SK12',
         '22+ years hands-on paint and detailing experience — coating applied correctly by someone who knows what they\'re doing',
         'Paint correction always included — we never coat over defects and seal them in permanently',
         'Professional panel lighting used during application — ensures uniform coverage with no missed areas',

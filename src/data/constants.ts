@@ -7,16 +7,16 @@ export const PHONE_INTERNATIONAL = '+44 7375 759686';
 export const BUSINESS_NAME = 'SRV Detailing';
 
 export const ADDRESS = {
-  streetAddress: 'Globe House, Globe Lane',
-  addressLocality: 'Dukinfield',
+  streetAddress: '59A Buxton Road',
+  addressLocality: 'Stockport',
   addressRegion: 'Greater Manchester',
-  postalCode: 'SK16 4RG',
+  postalCode: 'SK12 2DZ',
   addressCountry: 'GB',
 } as const;
 
 export const GEO = {
-  latitude: '53.4746',
-  longitude: '-2.0873',
+  latitude: '53.36028',
+  longitude: '-2.03439',
 } as const;
 
 export const BUSINESS_INFO = {
